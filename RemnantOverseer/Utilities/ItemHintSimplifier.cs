@@ -32,6 +32,10 @@ internal static class ItemHintSimplifier
         @"^Crafted by (?<vendor>[^,.]+?) from (?:the )?(?<material>[^,.]+)(?:[,.]|$)",
         RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
 
+    private static readonly Regex CraftedByWorldRegex = new(
+        @"^Crafted by (?<vendor>[^,.]+?) on (?<world>[^,.]+), from (?:the )?(?<material>[^,.]+)(?:[,.]|$)",
+        RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
+
     private static readonly Regex GivenByRegex = new(
         @"^Given by (?<npc>.+?) in (?:the )?(?<location>.+?) location on (?<world>[^.,]+)(?:[.,]\s*)?",
         RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
@@ -54,7 +58,7 @@ internal static class ItemHintSimplifier
         return KnownHint(description)
             ?? TryBuildStructuredHint(description.Trim())
             ?? TryBuildFallbackHint(description.Trim())
-            ?? Step("Check item source");
+            ?? string.Empty;
     }
 
     // Hints are intentionally English during the simplification phase.
@@ -140,6 +144,15 @@ internal static class ItemHintSimplifier
         if (TryBuildRandomDropHint(text, out var randomDrop))
         {
             return randomDrop;
+        }
+
+        var craftedByWorld = CraftedByWorldRegex.Match(text);
+        if (craftedByWorld.Success)
+        {
+            return Lines(
+                Location(craftedByWorld.Groups["world"].Value, string.Empty),
+                Source("Craft From", craftedByWorld.Groups["vendor"].Value),
+                Step($"Requires: {craftedByWorld.Groups["material"].Value}"));
         }
 
         var craftedBy = CraftedByRegex.Match(text);
@@ -331,7 +344,9 @@ internal static class ItemHintSimplifier
 
     private static string Location(string world, string location)
     {
-        var value = string.IsNullOrWhiteSpace(world) ? location : $"{world} / {location}";
+        var value = string.IsNullOrWhiteSpace(location)
+            ? world
+            : string.IsNullOrWhiteSpace(world) ? location : $"{world} / {location}";
         return Source("Location", value);
     }
 

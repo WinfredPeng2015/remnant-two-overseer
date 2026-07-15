@@ -14,8 +14,8 @@ public class Item : ObservableObject
     public WeaponSubtypes? WeaponSubtype { get; set; }
     public string Description { get; set; } = string.Empty;
     public string HintDescription => ItemHintSimplifier.Simplify(CanonicalName, Id, Description);
-    public bool HasDescription => !string.IsNullOrWhiteSpace(Description);
-    public string? NoteTranslationLink => ItemHintSimplifier.IsLocalizedHint(HintDescription)
+    public bool HasDescription => !string.IsNullOrWhiteSpace(HintDescription);
+    public string? NoteTranslationLink => !HasDescription || ItemHintSimplifier.IsLocalizedHint(HintDescription)
         ? null
         : LocalizationService.ExternalTranslationUrl(HintDescription);
     public bool HasNoteTranslationLink => NoteTranslationLink is not null;
