@@ -55,17 +55,27 @@ internal static class ItemHintSimplifier
             return string.Empty;
         }
 
-        return KnownHint(description)
+        return KnownHint(itemId, description)
             ?? TryBuildStructuredHint(description.Trim())
             ?? TryBuildFallbackHint(description.Trim())
-            ?? string.Empty;
+            ?? description;
     }
 
     // Hints are intentionally English during the simplification phase.
     public static bool IsLocalizedHint(string text) => false;
 
-    private static string? KnownHint(string description)
+    private static string? KnownHint(string itemId, string description)
     {
+        if (itemId.Equals("Ring_SealOfTheEmpress", StringComparison.OrdinalIgnoreCase))
+        {
+            return Lines(
+                Location("Yaesha", "The Red Throne"),
+                Source("Get From", "Eternal Empress"),
+                Step("Agree to help her"),
+                Step("Defeat: Corruptor"),
+                Step("Do not give Ornate Lockbox or Thaen Seed"));
+        }
+
         if (description.Contains("Council Chamber", StringComparison.OrdinalIgnoreCase)
             && (description.Contains("Council Tribunal", StringComparison.OrdinalIgnoreCase)
                 || description.Contains("council keys", StringComparison.OrdinalIgnoreCase)
