@@ -13,8 +13,11 @@ public class Item : ObservableObject
     public ItemTypes Type { get; set; }
     public WeaponSubtypes? WeaponSubtype { get; set; }
     public string Description { get; set; } = string.Empty;
+    public string HintDescription => ItemHintSimplifier.Simplify(CanonicalName, Id, Description);
     public bool HasDescription => !string.IsNullOrWhiteSpace(Description);
-    public string? NoteTranslationLink => LocalizationService.ExternalTranslationUrl(Description);
+    public string? NoteTranslationLink => ItemHintSimplifier.IsLocalizedHint(HintDescription)
+        ? null
+        : LocalizationService.ExternalTranslationUrl(HintDescription);
     public bool HasNoteTranslationLink => NoteTranslationLink is not null;
     public bool HasPlainDescriptionIcon => HasDescription && !HasNoteTranslationLink;
     public OriginTypes OriginType { get; set; }
@@ -63,6 +66,7 @@ public class Item : ObservableObject
         OnPropertyChanged(nameof(OriginName));
         OnPropertyChanged(nameof(TypeName));
         OnPropertyChanged(nameof(OriginNameFormatted));
+        OnPropertyChanged(nameof(HintDescription));
         OnPropertyChanged(nameof(NoteTranslationLink));
         OnPropertyChanged(nameof(HasNoteTranslationLink));
         OnPropertyChanged(nameof(HasPlainDescriptionIcon));

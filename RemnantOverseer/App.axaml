@@ -25,7 +25,7 @@
       </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 
-    <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Montserrat#Montserrat, $Default</FontFamily>
+    <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Montserrat#Montserrat, Microsoft JhengHei UI, Microsoft YaHei UI, Yu Gothic UI, Malgun Gothic, $Default</FontFamily>
   </Application.Resources>
 
     <Application.Styles>

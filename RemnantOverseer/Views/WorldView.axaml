@@ -334,11 +334,11 @@
                       <StackPanel Orientation="Vertical">
                         <TextBlock TextDecorations="{x:Null}" Margin="0 0 0 5" Text="{loc:Loc Item_ClickTranslateNote}"/>
                         <Border Classes="toolTipDivider" />
-                        <TextBlock TextDecorations="{x:Null}" Text="{Binding Description}" TextWrapping="Wrap" MaxWidth="450"/>
+                        <TextBlock TextDecorations="{x:Null}" Text="{Binding HintDescription}" TextWrapping="Wrap" MaxWidth="450"/>
                       </StackPanel>
                     </ToolTip.Tip>
                   </HyperlinkButton>
-                  <PathIcon Data="{StaticResource RoundInfoIcon}" IsVisible="{Binding HasPlainDescriptionIcon}" ToolTip.Tip="{Binding Description}" ToolTip.Placement="LeftEdgeAlignedTop"/>
+                  <PathIcon Data="{StaticResource RoundInfoIcon}" IsVisible="{Binding HasPlainDescriptionIcon}" ToolTip.Tip="{Binding HintDescription}" ToolTip.Placement="LeftEdgeAlignedTop"/>
                   <HyperlinkButton Classes="plain" Margin="5 0" Padding="0" NavigateUri="{Binding ToolkitLink}">
                     <HyperlinkButton.IsVisible>
                       <MultiBinding Converter="{x:Static BoolConverters.And}">

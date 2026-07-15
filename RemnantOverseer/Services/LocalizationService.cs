@@ -39,7 +39,8 @@ internal static class LocalizationService
         new CultureOption("ko", "한국어"),
         new CultureOption("pt-BR", "Português (Brasil)"),
         new CultureOption("ru", "Русский"),
-        new CultureOption("zh-Hans", "简体中文")
+        new CultureOption("zh-Hans", "简体中文"),
+        new CultureOption("zh-Hant", "繁體中文")
     ];
 
     public static void ApplyCulture(string? cultureName)
@@ -49,6 +50,8 @@ internal static class LocalizationService
 
         CultureInfo.DefaultThreadCurrentCulture = culture;
         CultureInfo.DefaultThreadCurrentUICulture = culture;
+        Thread.CurrentThread.CurrentCulture = culture;
+        Thread.CurrentThread.CurrentUICulture = culture;
 
         if (isCultureChanged)
         {
@@ -180,6 +183,12 @@ internal static class LocalizationService
             || string.Equals(culture.Name, "zh-CN", StringComparison.OrdinalIgnoreCase))
         {
             return "zh-CN";
+        }
+
+        if (string.Equals(culture.Name, "zh-Hant", StringComparison.OrdinalIgnoreCase)
+            || string.Equals(culture.Name, "zh-TW", StringComparison.OrdinalIgnoreCase))
+        {
+            return "zh-TW";
         }
 
         return culture.TwoLetterISOLanguageName;

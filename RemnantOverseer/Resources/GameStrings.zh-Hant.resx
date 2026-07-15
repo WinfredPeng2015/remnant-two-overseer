@@ -1,0 +1,3162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amulet_ButchersFetish" xml:space="preserve">
+    <value>屠夫靈偶</value>
+  </data>
+  <data name="Amulet_DaredevilsCharm" xml:space="preserve">
+    <value>勇者神符</value>
+  </data>
+  <data name="Amulet_GunslingersCharm" xml:space="preserve">
+    <value>槍手神符</value>
+  </data>
+  <data name="Amulet_LetosAmulet" xml:space="preserve">
+    <value>萊托的項鍊</value>
+  </data>
+  <data name="Amulet_NightmareSpiral" xml:space="preserve">
+    <value>噩夢螺旋</value>
+  </data>
+  <data name="Amulet_OnyxPendulum" xml:space="preserve">
+    <value>瑪瑙鐘擺</value>
+  </data>
+  <data name="Amulet_TwistedIdol" xml:space="preserve">
+    <value>扭曲神像</value>
+  </data>
+  <data name="Amulet_ChainsOfAmplification" xml:space="preserve">
+    <value>增效鎖鏈</value>
+  </data>
+  <data name="Amulet_CleansingStone" xml:space="preserve">
+    <value>凈化之石</value>
+  </data>
+  <data name="Amulet_ShockDevice" xml:space="preserve">
+    <value>電擊設備</value>
+  </data>
+  <data name="Amulet_EffigyPendant" xml:space="preserve">
+    <value>人形吊墜</value>
+  </data>
+  <data name="Amulet_GoldenRibbon" xml:space="preserve">
+    <value>金緞帶</value>
+  </data>
+  <data name="Amulet_IndignantFetish" xml:space="preserve">
+    <value>憤怒靈偶</value>
+  </data>
+  <data name="Amulet_JestersBell" xml:space="preserve">
+    <value>小丑的鈴鐺</value>
+  </data>
+  <data name="Amulet_NeckboneNecklace" xml:space="preserve">
+    <value>頸骨項鍊</value>
+  </data>
+  <data name="Amulet_NightweaversGrudge" xml:space="preserve">
+    <value>織夜者的仇怨</value>
+  </data>
+  <data name="Amulet_NimuesRibbon" xml:space="preserve">
+    <value>尼姆埃緞帶</value>
+  </data>
+  <data name="Amulet_OneEyedJokerIdol" xml:space="preserve">
+    <value>獨眼小丑像</value>
+  </data>
+  <data name="Amulet_OneTrueKingSigil" xml:space="preserve">
+    <value>獨一真皇魔符</value>
+  </data>
+  <data name="Amulet_ShadeBloomCrystal" xml:space="preserve">
+    <value>剎邸綻放水晶</value>
+  </data>
+  <data name="Amulet_SilverRibbon" xml:space="preserve">
+    <value>銀緞帶</value>
+  </data>
+  <data name="Amulet_SpiritWispAmulet" xml:space="preserve">
+    <value>魂光項鍊</value>
+  </data>
+  <data name="Amulet_WeightlessWeight" xml:space="preserve">
+    <value>無重之重</value>
+  </data>
+  <data name="Amulet_DeathsEmbrace" xml:space="preserve">
+    <value>死亡之擁</value>
+  </data>
+  <data name="Amulet_DownwardSpiral" xml:space="preserve">
+    <value>下墜螺旋</value>
+  </data>
+  <data name="Amulet_FullMoonCirclet" xml:space="preserve">
+    <value>滿月飾環</value>
+  </data>
+  <data name="Amulet_HallowedEgg" xml:space="preserve">
+    <value>聖蛋</value>
+  </data>
+  <data name="Amulet_KuriKuriCharm" xml:space="preserve">
+    <value>庫里庫里護符</value>
+  </data>
+  <data name="Amulet_LaemirCenser" xml:space="preserve">
+    <value>萊米爾香爐</value>
+  </data>
+  <data name="Amulet_MatriarchsInsignia" xml:space="preserve">
+    <value>主母的徽記</value>
+  </data>
+  <data name="Amulet_NecklaceOfFlowingLife" xml:space="preserve">
+    <value>生命流動項鍊</value>
+  </data>
+  <data name="Amulet_NecklaceOfSupremacy" xml:space="preserve">
+    <value>至境項鍊</value>
+  </data>
+  <data name="Amulet_RavagersMark" xml:space="preserve">
+    <value>劫掠者標記</value>
+  </data>
+  <data name="Amulet_RedDoeSigil" xml:space="preserve">
+    <value>紅鹿魔符</value>
+  </data>
+  <data name="Amulet_ScavengersBauble" xml:space="preserve">
+    <value>拾荒者飾品</value>
+  </data>
+  <data name="Amulet_SoulAnchor" xml:space="preserve">
+    <value>靈魂之錨</value>
+  </data>
+  <data name="Amulet_StalkersBrand" xml:space="preserve">
+    <value>潛行者印記</value>
+  </data>
+  <data name="Amulet_TalismanOfTheSun" xml:space="preserve">
+    <value>太陽護符</value>
+  </data>
+  <data name="Amulet_VengeanceIdol" xml:space="preserve">
+    <value>復仇神像</value>
+  </data>
+  <data name="Amulet_EnergizedNeckCoil" xml:space="preserve">
+    <value>能量項鍊</value>
+  </data>
+  <data name="Amulet_GunfireSecurityLanyard" xml:space="preserve">
+    <value>槍械安全掛牌</value>
+  </data>
+  <data name="Amulet_CoreBooster" xml:space="preserve">
+    <value>助推核心</value>
+  </data>
+  <data name="Amulet_DetonationTrigger" xml:space="preserve">
+    <value>引爆觸發器</value>
+  </data>
+  <data name="Amulet_DifferenceEngine" xml:space="preserve">
+    <value>差分機</value>
+  </data>
+  <data name="Amulet_EffluviumEnhancer" xml:space="preserve">
+    <value>擴臭器</value>
+  </data>
+  <data name="Amulet_EmergencySwitch" xml:space="preserve">
+    <value>應急開關</value>
+  </data>
+  <data name="Amulet_EnergyDiverter" xml:space="preserve">
+    <value>能量分流器</value>
+  </data>
+  <data name="Amulet_Hyperconductor" xml:space="preserve">
+    <value>超導體</value>
+  </data>
+  <data name="Amulet_InertOvercharger" xml:space="preserve">
+    <value>惰性過載器</value>
+  </data>
+  <data name="Amulet_InsulationDriver" xml:space="preserve">
+    <value>絕緣驅動器</value>
+  </data>
+  <data name="Amulet_KineticShieldExchanger" xml:space="preserve">
+    <value>動能護盾交換器</value>
+  </data>
+  <data name="Amulet_NavigatorsPendant" xml:space="preserve">
+    <value>領航員吊墜</value>
+  </data>
+  <data name="Amulet_RangeFinder" xml:space="preserve">
+    <value>遠程探頭</value>
+  </data>
+  <data name="Amulet_RustedNavigatorsPendant" xml:space="preserve">
+    <value>生銹的領航員吊墜</value>
+  </data>
+  <data name="Amulet_Samoflange" xml:space="preserve">
+    <value>高精尖元件</value>
+  </data>
+  <data name="Amulet_ToxicReleaseValve" xml:space="preserve">
+    <value>釋毒閥</value>
+  </data>
+  <data name="Amulet_VoidIdol" xml:space="preserve">
+    <value>虛空神像</value>
+  </data>
+  <data name="Amulet_AbrasiveWhetstone" xml:space="preserve">
+    <value>腐蝕磨石</value>
+  </data>
+  <data name="Amulet_AnkhOfPower" xml:space="preserve">
+    <value>聖十字輝光</value>
+  </data>
+  <data name="Amulet_BrokenPocketWatch" xml:space="preserve">
+    <value>破損懷表</value>
+  </data>
+  <data name="Amulet_DecayedMargin" xml:space="preserve">
+    <value>腐朽邊際</value>
+  </data>
+  <data name="Amulet_EscalationProtocol" xml:space="preserve">
+    <value>升級協議</value>
+  </data>
+  <data name="Amulet_BirthrightOfTheLost" xml:space="preserve">
+    <value>失落者天權</value>
+  </data>
+  <data name="Amulet_BrewmastersCork" xml:space="preserve">
+    <value>釀酒大師的瓶塞</value>
+  </data>
+  <data name="Amulet_CostOfBetrayal" xml:space="preserve">
+    <value>背叛的代價</value>
+  </data>
+  <data name="Amulet_DeathSoakedIdol" xml:space="preserve">
+    <value>浸透死亡的神像</value>
+  </data>
+  <data name="Amulet_GiftOfEuphoria" xml:space="preserve">
+    <value>極樂的禮物</value>
+  </data>
+  <data name="Amulet_GiftOfMelancholy" xml:space="preserve">
+    <value>憂郁的禮物</value>
+  </data>
+  <data name="Amulet_GiftOfTheUnbound" xml:space="preserve">
+    <value>不羈者的禮物</value>
+  </data>
+  <data name="Amulet_IndexOfTheScribe" xml:space="preserve">
+    <value>抄寫員的索引</value>
+  </data>
+  <data name="Amulet_LegacyProtocol" xml:space="preserve">
+    <value>舊日協議</value>
+  </data>
+  <data name="Amulet_ParticipationMedal" xml:space="preserve">
+    <value>參與獎章</value>
+  </data>
+  <data name="Amulet_SinisterTotem" xml:space="preserve">
+    <value>罪惡圖騰</value>
+  </data>
+  <data name="Amulet_WhisperingMarble" xml:space="preserve">
+    <value>低語大理石</value>
+  </data>
+  <data name="Amulet_BeadsOfTheValorous" xml:space="preserve">
+    <value>勇武珠串</value>
+  </data>
+  <data name="Amulet_CervineKeepsake" xml:space="preserve">
+    <value>紅鹿信物</value>
+  </data>
+  <data name="Amulet_EchoOfTheForest" xml:space="preserve">
+    <value>森之回響</value>
+  </data>
+  <data name="Amulet_FragrantThorn" xml:space="preserve">
+    <value>芳香荊棘</value>
+  </data>
+  <data name="Amulet_MagnifyingGlass" xml:space="preserve">
+    <value>放大鏡</value>
+  </data>
+  <data name="Amulet_MoonStone" xml:space="preserve">
+    <value>月亮之石</value>
+  </data>
+  <data name="Amulet_ProfaneSoulStone" xml:space="preserve">
+    <value>瀆魂石</value>
+  </data>
+  <data name="Amulet_ReedOfTheVaunnt" xml:space="preserve">
+    <value>沃恩特里德</value>
+  </data>
+  <data name="Amulet_SoulStone" xml:space="preserve">
+    <value>靈魂之石</value>
+  </data>
+  <data name="Amulet_StoneshapersChisel" xml:space="preserve">
+    <value>塑石師的鑿子</value>
+  </data>
+  <data name="Amulet_WornDogTags" xml:space="preserve">
+    <value>磨損的狗牌</value>
+  </data>
+  <data name="Amulet_ZeroDivide" xml:space="preserve">
+    <value>零分界</value>
+  </data>
+  <data name="Amulet_BrazenAlloy" xml:space="preserve">
+    <value>銅汞合金</value>
+  </data>
+  <data name="Amulet_CanineKeepsake" xml:space="preserve">
+    <value>犬類信物</value>
+  </data>
+  <data name="Amulet_CessationBulbel" xml:space="preserve">
+    <value>終止球莖</value>
+  </data>
+  <data name="Amulet_ChefMedal" xml:space="preserve">
+    <value>廚師獎章</value>
+  </data>
+  <data name="Amulet_CrisisCore" xml:space="preserve">
+    <value>關鍵核心</value>
+  </data>
+  <data name="Amulet_EchoChamber" xml:space="preserve">
+    <value>回聲室</value>
+  </data>
+  <data name="Amulet_ExhaustValve" xml:space="preserve">
+    <value>排氣閥</value>
+  </data>
+  <data name="Amulet_HangmansNoose" xml:space="preserve">
+    <value>絞刑索</value>
+  </data>
+  <data name="Amulet_InsipidTalon" xml:space="preserve">
+    <value>無趣之爪</value>
+  </data>
+  <data name="Amulet_OrnateAmulet" xml:space="preserve">
+    <value>華麗項鍊</value>
+  </data>
+  <data name="Amulet_QuantumMemory" xml:space="preserve">
+    <value>量子記憶</value>
+  </data>
+  <data name="Amulet_ReactionChain" xml:space="preserve">
+    <value>反應鏈</value>
+  </data>
+  <data name="Amulet_RelayDevice" xml:space="preserve">
+    <value>中繼裝置</value>
+  </data>
+  <data name="Amulet_ShortCircuit" xml:space="preserve">
+    <value>短路</value>
+  </data>
+  <data name="Amulet_TimekeepersForfeit" xml:space="preserve">
+    <value>計時者的罰沒品</value>
+  </data>
+  <data name="Amulet_VolatileCartridge" xml:space="preserve">
+    <value>爆裂彈藥</value>
+  </data>
+  <data name="Amulet_ZeroHour" xml:space="preserve">
+    <value>零點時刻</value>
+  </data>
+  <data name="Armor_Body_Challenger" xml:space="preserve">
+    <value>斗士胸甲</value>
+  </data>
+  <data name="Armor_Gloves_Challenger" xml:space="preserve">
+    <value>斗士手套</value>
+  </data>
+  <data name="Armor_Head_Challenger" xml:space="preserve">
+    <value>斗士頭盔</value>
+  </data>
+  <data name="Armor_Legs_Challenger" xml:space="preserve">
+    <value>斗士靴子</value>
+  </data>
+  <data name="Armor_Body_Handler" xml:space="preserve">
+    <value>馴獸員上衣</value>
+  </data>
+  <data name="Armor_Gloves_Handler" xml:space="preserve">
+    <value>馴獸員護腕</value>
+  </data>
+  <data name="Armor_Head_Handler" xml:space="preserve">
+    <value>馴獸員帽子</value>
+  </data>
+  <data name="Armor_Legs_Handler" xml:space="preserve">
+    <value>馴獸員工作靴</value>
+  </data>
+  <data name="Armor_Body_Hunter" xml:space="preserve">
+    <value>夜行者上衣</value>
+  </data>
+  <data name="Armor_Gloves_Hunter" xml:space="preserve">
+    <value>夜行者手套</value>
+  </data>
+  <data name="Armor_Head_Hunter" xml:space="preserve">
+    <value>夜行者兜帽</value>
+  </data>
+  <data name="Armor_Legs_Hunter" xml:space="preserve">
+    <value>夜行者褲子</value>
+  </data>
+  <data name="Armor_Body_Medic" xml:space="preserve">
+    <value>戰地醫務兵大衣</value>
+  </data>
+  <data name="Armor_Gloves_Medic" xml:space="preserve">
+    <value>戰地醫務兵手套</value>
+  </data>
+  <data name="Armor_Head_Medic" xml:space="preserve">
+    <value>戰地醫務兵面具</value>
+  </data>
+  <data name="Armor_Legs_Medic" xml:space="preserve">
+    <value>戰地醫務兵褲子</value>
+  </data>
+  <data name="Armor_Body_Alchemist" xml:space="preserve">
+    <value>學者大衣</value>
+  </data>
+  <data name="Armor_Gloves_Alchemist" xml:space="preserve">
+    <value>學者手套</value>
+  </data>
+  <data name="Armor_Head_Alchemist" xml:space="preserve">
+    <value>學者帽子</value>
+  </data>
+  <data name="Armor_Legs_Alchemist" xml:space="preserve">
+    <value>學者褲子</value>
+  </data>
+  <data name="Armor_Body_Archon" xml:space="preserve">
+    <value>迷宮斗篷</value>
+  </data>
+  <data name="Armor_Gloves_Archon" xml:space="preserve">
+    <value>迷宮護手</value>
+  </data>
+  <data name="Armor_Head_Archon" xml:space="preserve">
+    <value>迷宮頭甲</value>
+  </data>
+  <data name="Armor_Legs_Archon" xml:space="preserve">
+    <value>迷宮護腿</value>
+  </data>
+  <data name="Armor_Body_Engineer" xml:space="preserve">
+    <value>技師胸甲</value>
+  </data>
+  <data name="Armor_Gloves_Engineer" xml:space="preserve">
+    <value>技師手套</value>
+  </data>
+  <data name="Armor_Head_Engineer" xml:space="preserve">
+    <value>技師頭盔</value>
+  </data>
+  <data name="Armor_Legs_Engineer" xml:space="preserve">
+    <value>技師腿甲</value>
+  </data>
+  <data name="Armor_Body_Explorer" xml:space="preserve">
+    <value>空間行者上衣</value>
+  </data>
+  <data name="Armor_Gloves_Explorer" xml:space="preserve">
+    <value>空間行者手套</value>
+  </data>
+  <data name="Armor_Head_Explorer" xml:space="preserve">
+    <value>空間行者貝雷帽</value>
+  </data>
+  <data name="Armor_Legs_Explorer" xml:space="preserve">
+    <value>空間行者褲子</value>
+  </data>
+  <data name="Armor_Body_Gunslinger" xml:space="preserve">
+    <value>正午上衣</value>
+  </data>
+  <data name="Armor_Gloves_Gunslinger" xml:space="preserve">
+    <value>正午護臂</value>
+  </data>
+  <data name="Armor_Head_Gunslinger" xml:space="preserve">
+    <value>正午帽子</value>
+  </data>
+  <data name="Armor_Legs_Gunslinger" xml:space="preserve">
+    <value>正午皮褲</value>
+  </data>
+  <data name="Armor_Body_Invader" xml:space="preserve">
+    <value>枯木胸甲</value>
+  </data>
+  <data name="Armor_Gloves_Invader" xml:space="preserve">
+    <value>枯木護手</value>
+  </data>
+  <data name="Armor_Head_Invader" xml:space="preserve">
+    <value>枯木面具</value>
+  </data>
+  <data name="Armor_Legs_Invader" xml:space="preserve">
+    <value>枯木護腿</value>
+  </data>
+  <data name="Armor_Body_Summoner" xml:space="preserve">
+    <value>扭結籠甲</value>
+  </data>
+  <data name="Armor_Gloves_Summoner" xml:space="preserve">
+    <value>扭結手套</value>
+  </data>
+  <data name="Armor_Head_Summoner" xml:space="preserve">
+    <value>扭結頭盔</value>
+  </data>
+  <data name="Armor_Legs_Summoner" xml:space="preserve">
+    <value>扭結腿甲</value>
+  </data>
+  <data name="Armor_Body_Leto1" xml:space="preserve">
+    <value>萊托 1 型護甲</value>
+  </data>
+  <data name="Armor_Gloves_Leto1" xml:space="preserve">
+    <value>萊托 1 型手套</value>
+  </data>
+  <data name="Armor_Head_Leto1" xml:space="preserve">
+    <value>萊托 1 型頭盔</value>
+  </data>
+  <data name="Armor_Legs_Leto1" xml:space="preserve">
+    <value>萊托 1 型護腿</value>
+  </data>
+  <data name="Armor_Body_Leto2" xml:space="preserve">
+    <value>萊托 2 型護甲</value>
+  </data>
+  <data name="Armor_Gloves_Leto2" xml:space="preserve">
+    <value>萊托 2 型手套</value>
+  </data>
+  <data name="Armor_Head_Leto2" xml:space="preserve">
+    <value>萊托 2 型頭盔</value>
+  </data>
+  <data name="Armor_Legs_Leto2" xml:space="preserve">
+    <value>萊托 2 型護腿</value>
+  </data>
+  <data name="Armor_Head_FieldCap" xml:space="preserve">
+    <value>戰地醫務兵帽子</value>
+  </data>
+  <data name="Armor_Head_RedPrince" xml:space="preserve">
+    <value>紅王子的王冠</value>
+  </data>
+  <data name="Armor_Body_Bandit" xml:space="preserve">
+    <value>強盜夾克</value>
+  </data>
+  <data name="Armor_Gloves_Bandit" xml:space="preserve">
+    <value>強盜面具</value>
+  </data>
+  <data name="Armor_Head_Bandit" xml:space="preserve">
+    <value>強盜手套</value>
+  </data>
+  <data name="Armor_Legs_Bandit" xml:space="preserve">
+    <value>強盜褲子</value>
+  </data>
+  <data name="Armor_Body_Cultist" xml:space="preserve">
+    <value>教徒風衣</value>
+  </data>
+  <data name="Armor_Gloves_Cultist" xml:space="preserve">
+    <value>教徒手套</value>
+  </data>
+  <data name="Armor_Head_Cultist" xml:space="preserve">
+    <value>教徒帽子</value>
+  </data>
+  <data name="Armor_Legs_Cultist" xml:space="preserve">
+    <value>教徒馬褲</value>
+  </data>
+  <data name="Armor_Body_Elder" xml:space="preserve">
+    <value>長老服飾</value>
+  </data>
+  <data name="Armor_Gloves_Elder" xml:space="preserve">
+    <value>長老手套</value>
+  </data>
+  <data name="Armor_Head_Elder" xml:space="preserve">
+    <value>長老頭飾</value>
+  </data>
+  <data name="Armor_Legs_Elder" xml:space="preserve">
+    <value>長老綁腿</value>
+  </data>
+  <data name="Armor_Body_Radiant" xml:space="preserve">
+    <value>光耀保護者</value>
+  </data>
+  <data name="Armor_Gloves_Radiant" xml:space="preserve">
+    <value>光耀護腕</value>
+  </data>
+  <data name="Armor_Head_Radiant" xml:space="preserve">
+    <value>光耀面容</value>
+  </data>
+  <data name="Armor_Legs_Radiant" xml:space="preserve">
+    <value>光耀腿甲</value>
+  </data>
+  <data name="Armor_Body_Void" xml:space="preserve">
+    <value>虛空甲殼</value>
+  </data>
+  <data name="Armor_Gloves_Void" xml:space="preserve">
+    <value>虛空護手</value>
+  </data>
+  <data name="Armor_Head_Void" xml:space="preserve">
+    <value>虛空頭顱</value>
+  </data>
+  <data name="Armor_Legs_Void" xml:space="preserve">
+    <value>虛空腿甲</value>
+  </data>
+  <data name="Armor_Body_Survivor" xml:space="preserve">
+    <value>幸存者大衣</value>
+  </data>
+  <data name="Armor_Gloves_Survivor" xml:space="preserve">
+    <value>幸存者手套</value>
+  </data>
+  <data name="Armor_Legs_Survivor" xml:space="preserve">
+    <value>幸存者護腿</value>
+  </data>
+  <data name="Armor_Body_FaeRoyalGuard" xml:space="preserve">
+    <value>翡族皇家胸甲</value>
+  </data>
+  <data name="Armor_Gloves_FaeRoyalGuard" xml:space="preserve">
+    <value>翡族皇家護手</value>
+  </data>
+  <data name="Armor_Head_FaeRoyalGuard" xml:space="preserve">
+    <value>翡族皇家頭罩</value>
+  </data>
+  <data name="Armor_Legs_FaeRoyalGuard" xml:space="preserve">
+    <value>翡族皇家腿甲</value>
+  </data>
+  <data name="Armor_Head_LodestoneCrown" xml:space="preserve">
+    <value>磁石王冠</value>
+  </data>
+  <data name="Armor_Body_RedWidow" xml:space="preserve">
+    <value>紅寡婦法衣</value>
+  </data>
+  <data name="Armor_Gloves_RedWidow" xml:space="preserve">
+    <value>紅寡婦護腕</value>
+  </data>
+  <data name="Armor_Head_RedWidow" xml:space="preserve">
+    <value>紅寡婦頭飾</value>
+  </data>
+  <data name="Armor_Legs_RedWidow" xml:space="preserve">
+    <value>紅寡婦護腿</value>
+  </data>
+  <data name="Armor_Head_PilotsHelm" xml:space="preserve">
+    <value>領航員頭盔</value>
+  </data>
+  <data name="Armor_Body_SpaceWorker" xml:space="preserve">
+    <value>空間工作者護甲</value>
+  </data>
+  <data name="Armor_Gloves_SpaceWorker" xml:space="preserve">
+    <value>空間工作者手套</value>
+  </data>
+  <data name="Armor_Head_SpaceWorker" xml:space="preserve">
+    <value>空間工作者面具</value>
+  </data>
+  <data name="Armor_Legs_SpaceWorker" xml:space="preserve">
+    <value>空間工作者護腿</value>
+  </data>
+  <data name="Armor_Body_Ritualist" xml:space="preserve">
+    <value>狂熱者外套</value>
+  </data>
+  <data name="Armor_Gloves_Ritualist" xml:space="preserve">
+    <value>狂熱者護手</value>
+  </data>
+  <data name="Armor_Head_Ritualist" xml:space="preserve">
+    <value>狂熱者帽子</value>
+  </data>
+  <data name="Armor_Legs_Ritualist" xml:space="preserve">
+    <value>狂熱者海靴</value>
+  </data>
+  <data name="Armor_Body_CrimsonGuard" xml:space="preserve">
+    <value>緋紅守衛板甲</value>
+  </data>
+  <data name="Armor_Gloves_CrimsonGuard" xml:space="preserve">
+    <value>緋紅守衛護手</value>
+  </data>
+  <data name="Armor_Head_CrimsonGuard" xml:space="preserve">
+    <value>緋紅守衛兜帽</value>
+  </data>
+  <data name="Armor_Legs_CrimsonGuard" xml:space="preserve">
+    <value>緋紅守衛腿鎧</value>
+  </data>
+  <data name="Armor_Body_Invoker" xml:space="preserve">
+    <value>門徒斗篷</value>
+  </data>
+  <data name="Armor_Gloves_Invoker" xml:space="preserve">
+    <value> 門徒護手</value>
+  </data>
+  <data name="Armor_Head_Invoker" xml:space="preserve">
+    <value>門徒頭飾</value>
+  </data>
+  <data name="Armor_Legs_Invoker" xml:space="preserve">
+    <value>門徒腿甲</value>
+  </data>
+  <data name="Armor_Body_Army" xml:space="preserve">
+    <value>戰斗上裝</value>
+  </data>
+  <data name="Armor_Gloves_Army" xml:space="preserve">
+    <value>戰斗護手</value>
+  </data>
+  <data name="Armor_Head_Army" xml:space="preserve">
+    <value>戰斗頭盔</value>
+  </data>
+  <data name="Armor_Legs_Army" xml:space="preserve">
+    <value>戰斗褲裝</value>
+  </data>
+  <data name="Armor_Head_BloodlessCrown" xml:space="preserve">
+    <value>斷血王冠</value>
+  </data>
+  <data name="Armor_Head_MudtoothsHat" xml:space="preserve">
+    <value>泥牙的帽子</value>
+  </data>
+  <data name="Armor_Head_TopHat" xml:space="preserve">
+    <value>華麗禮帽</value>
+  </data>
+  <data name="Armor_Head_TrueCrimsonCrown" xml:space="preserve">
+    <value>真正的緋紅皇冠</value>
+  </data>
+  <data name="Armor_Body_Warden" xml:space="preserve">
+    <value>納米鍍層法衣</value>
+  </data>
+  <data name="Armor_Gloves_Warden" xml:space="preserve">
+    <value>納米鍍層手甲</value>
+  </data>
+  <data name="Armor_Head_Warden" xml:space="preserve">
+    <value>納米鍍層傳送器</value>
+  </data>
+  <data name="Armor_Legs_Warden" xml:space="preserve">
+    <value>納米鍍層腰帶</value>
+  </data>
+  <data name="Armor_Body_NerudWarrior" xml:space="preserve">
+    <value>菲特爾護甲</value>
+  </data>
+  <data name="Armor_Gloves_NerudWarrior" xml:space="preserve">
+    <value>菲特爾碾壓者</value>
+  </data>
+  <data name="Armor_Head_NerudWarrior" xml:space="preserve">
+    <value>菲特爾感應器</value>
+  </data>
+  <data name="Armor_Legs_NerudWarrior" xml:space="preserve">
+    <value>菲特爾動能腿甲</value>
+  </data>
+  <data name="Armor_Head_WeldingGoggles" xml:space="preserve">
+    <value>焊接護目鏡</value>
+  </data>
+  <data name="Mod_ConcussiveShot" xml:space="preserve">
+    <value>震蕩射擊</value>
+  </data>
+  <data name="Mod_CorrosiveRounds" xml:space="preserve">
+    <value>腐蝕彈藥</value>
+  </data>
+  <data name="Mod_HealingShot" xml:space="preserve">
+    <value>治愈射擊</value>
+  </data>
+  <data name="Mod_Hotshot" xml:space="preserve">
+    <value>火熱射擊</value>
+  </data>
+  <data name="Mod_ScrapShot" xml:space="preserve">
+    <value>廢料射擊</value>
+  </data>
+  <data name="Mod_BloodDraw" xml:space="preserve">
+    <value>血引</value>
+  </data>
+  <data name="Mod_Familiar" xml:space="preserve">
+    <value>使魔</value>
+  </data>
+  <data name="Mod_Firestorm" xml:space="preserve">
+    <value>火焰風暴</value>
+  </data>
+  <data name="Mod_TimeLapse" xml:space="preserve">
+    <value>時間停頓</value>
+  </data>
+  <data name="Mod_VoltaicRondure" xml:space="preserve">
+    <value>伏特回旋</value>
+  </data>
+  <data name="Mod_Witchfire" xml:space="preserve">
+    <value>巫火</value>
+  </data>
+  <data name="Mod_AstralBurst" xml:space="preserve">
+    <value>星辰爆裂</value>
+  </data>
+  <data name="Mod_Fargazer" xml:space="preserve">
+    <value>千里眼</value>
+  </data>
+  <data name="Mod_Rootlash" xml:space="preserve">
+    <value>根蔓鞭笞</value>
+  </data>
+  <data name="Mod_RottedArrow" xml:space="preserve">
+    <value>腐化之箭</value>
+  </data>
+  <data name="Mod_SongOfEafir" xml:space="preserve">
+    <value>伊菲爾之歌</value>
+  </data>
+  <data name="Mod_Soulbinder" xml:space="preserve">
+    <value>靈魂連結</value>
+  </data>
+  <data name="Mod_Tremor" xml:space="preserve">
+    <value>震顫</value>
+  </data>
+  <data name="Mod_Bore" xml:space="preserve">
+    <value>鉆孔</value>
+  </data>
+  <data name="Mod_EnergyWall" xml:space="preserve">
+    <value>能量屏障</value>
+  </data>
+  <data name="Mod_Helix" xml:space="preserve">
+    <value>螺旋飛彈</value>
+  </data>
+  <data name="Mod_Overflow" xml:space="preserve">
+    <value>噴溢</value>
+  </data>
+  <data name="Mod_PrismaticDriver" xml:space="preserve">
+    <value>棱鏡驅動器</value>
+  </data>
+  <data name="Mod_SpaceCrabs" xml:space="preserve">
+    <value>太空蟹</value>
+  </data>
+  <data name="Mod_StasisBeam" xml:space="preserve">
+    <value>靜電光束</value>
+  </data>
+  <data name="Mod_Defrag" xml:space="preserve">
+    <value>碎片清理</value>
+  </data>
+  <data name="Mod_Skewer" xml:space="preserve">
+    <value>穿刺者 2.0</value>
+  </data>
+  <data name="Mod_CreepingMist" xml:space="preserve">
+    <value>蔓延迷霧</value>
+  </data>
+  <data name="Mod_KnightGuard" xml:space="preserve">
+    <value>騎士守衛</value>
+  </data>
+  <data name="Mod_RingOfSpears" xml:space="preserve">
+    <value>長矛戒指</value>
+  </data>
+  <data name="Mod_AbrasiveRounds" xml:space="preserve">
+    <value>粗糙彈藥</value>
+  </data>
+  <data name="Mod_FlyingBombTrap" xml:space="preserve">
+    <value>飛彈陷阱</value>
+  </data>
+  <data name="Mod_Heatwave" xml:space="preserve">
+    <value>熱浪</value>
+  </data>
+  <data name="Mod_HarvesterBots" xml:space="preserve">
+    <value>收獲者機器人</value>
+  </data>
+  <data name="Mod_ShieldingShot" xml:space="preserve">
+    <value>護盾射擊</value>
+  </data>
+  <data name="Mod_Voidlight" xml:space="preserve">
+    <value>虛空之光</value>
+  </data>
+  <data name="MetaGem_Dervish" xml:space="preserve">
+    <value>德維士</value>
+  </data>
+  <data name="MetaGem_Disengage" xml:space="preserve">
+    <value>拆解</value>
+  </data>
+  <data name="MetaGem_Misfortune" xml:space="preserve">
+    <value>不幸</value>
+  </data>
+  <data name="MetaGem_Overdrive" xml:space="preserve">
+    <value>過載</value>
+  </data>
+  <data name="MetaGem_Reinvigorate" xml:space="preserve">
+    <value>重振精神</value>
+  </data>
+  <data name="MetaGem_Resentment" xml:space="preserve">
+    <value>怨恨</value>
+  </data>
+  <data name="MetaGem_ShieldBreaker" xml:space="preserve">
+    <value>護盾打擊</value>
+  </data>
+  <data name="MetaGem_Steadfast" xml:space="preserve">
+    <value>堅定</value>
+  </data>
+  <data name="MetaGem_Striker" xml:space="preserve">
+    <value>前鋒</value>
+  </data>
+  <data name="MetaGem_Transference" xml:space="preserve">
+    <value>遷移</value>
+  </data>
+  <data name="MetaGem_VampireBlade" xml:space="preserve">
+    <value>吸血鬼之刃</value>
+  </data>
+  <data name="MetaGem_VengefulStrike" xml:space="preserve">
+    <value>復仇女神</value>
+  </data>
+  <data name="MetaGem_WeaponLord" xml:space="preserve">
+    <value>武器之王</value>
+  </data>
+  <data name="MetaGem_Bandit" xml:space="preserve">
+    <value>強盜</value>
+  </data>
+  <data name="MetaGem_Battery" xml:space="preserve">
+    <value>電池</value>
+  </data>
+  <data name="MetaGem_Bulletweaver" xml:space="preserve">
+    <value>子彈織造者</value>
+  </data>
+  <data name="MetaGem_DeadlyCalm" xml:space="preserve">
+    <value>致命的平靜</value>
+  </data>
+  <data name="MetaGem_Extender" xml:space="preserve">
+    <value>擴展器</value>
+  </data>
+  <data name="MetaGem_Failsafe" xml:space="preserve">
+    <value>失效保護</value>
+  </data>
+  <data name="MetaGem_Feedback" xml:space="preserve">
+    <value>反饋</value>
+  </data>
+  <data name="MetaGem_GhostShell" xml:space="preserve">
+    <value>鬼魅甲殼</value>
+  </data>
+  <data name="MetaGem_Harmonizer" xml:space="preserve">
+    <value>調諧者</value>
+  </data>
+  <data name="MetaGem_Lithely" xml:space="preserve">
+    <value>輕盈</value>
+  </data>
+  <data name="MetaGem_Momentum" xml:space="preserve">
+    <value>動量</value>
+  </data>
+  <data name="MetaGem_Refunder" xml:space="preserve">
+    <value>退款</value>
+  </data>
+  <data name="MetaGem_Slayer" xml:space="preserve">
+    <value>屠殺者</value>
+  </data>
+  <data name="MetaGem_Supercharger" xml:space="preserve">
+    <value>增壓器</value>
+  </data>
+  <data name="MetaGem_Timewave" xml:space="preserve">
+    <value>時間波</value>
+  </data>
+  <data name="MetaGem_Transpose" xml:space="preserve">
+    <value>轉換</value>
+  </data>
+  <data name="MetaGem_TwistingWounds" xml:space="preserve">
+    <value>扭曲傷口</value>
+  </data>
+  <data name="MetaGem_Edgelord" xml:space="preserve">
+    <value>邊緣行走</value>
+  </data>
+  <data name="MetaGem_Latency" xml:space="preserve">
+    <value>延遲</value>
+  </data>
+  <data name="MetaGem_Opportunist" xml:space="preserve">
+    <value>投機者</value>
+  </data>
+  <data name="MetaGem_Shocker" xml:space="preserve">
+    <value>震顫者</value>
+  </data>
+  <data name="MetaGem_Stormbringer" xml:space="preserve">
+    <value>風暴使者</value>
+  </data>
+  <data name="MetaGem_BottomFeeder" xml:space="preserve">
+    <value>靈魂攝食者</value>
+  </data>
+  <data name="MetaGem_BottomHeavy" xml:space="preserve">
+    <value>輕裝上陣</value>
+  </data>
+  <data name="MetaGem_Ingenuity" xml:space="preserve">
+    <value>獨創精神</value>
+  </data>
+  <data name="MetaGem_KillSwitch" xml:space="preserve">
+    <value>殺戮開關</value>
+  </data>
+  <data name="MetaGem_SequencedShot" xml:space="preserve">
+    <value>連續射擊</value>
+  </data>
+  <data name="MetaGem_SpiritHealer" xml:space="preserve">
+    <value>靈魂醫者</value>
+  </data>
+  <data name="MetaGem_TopHeavy" xml:space="preserve">
+    <value>重裝上陣</value>
+  </data>
+  <data name="MetaGem_Dreadful" xml:space="preserve">
+    <value>可怖</value>
+  </data>
+  <data name="MetaGem_FetidWounds" xml:space="preserve">
+    <value>惡臭傷痕</value>
+  </data>
+  <data name="MetaGem_Maelstrom" xml:space="preserve">
+    <value>大漩渦</value>
+  </data>
+  <data name="MetaGem_Prophecy" xml:space="preserve">
+    <value>預言</value>
+  </data>
+  <data name="MetaGem_Sleeper" xml:space="preserve">
+    <value>沉睡者</value>
+  </data>
+  <data name="MetaGem_Executor" xml:space="preserve">
+    <value>執行者</value>
+  </data>
+  <data name="MetaGem_Guts" xml:space="preserve">
+    <value>越戰越勇</value>
+  </data>
+  <data name="MetaGem_TaintedBlade" xml:space="preserve">
+    <value>污穢之刃</value>
+  </data>
+  <data name="MetaGem_BattleMage" xml:space="preserve">
+    <value>戰斗法師</value>
+  </data>
+  <data name="MetaGem_Gladiator" xml:space="preserve">
+    <value>角斗士</value>
+  </data>
+  <data name="MetaGem_FarSighted" xml:space="preserve">
+    <value>遠見</value>
+  </data>
+  <data name="MetaGem_NearSighted" xml:space="preserve">
+    <value>近視</value>
+  </data>
+  <data name="MetaGem_PressurePoint" xml:space="preserve">
+    <value>壓力點</value>
+  </data>
+  <data name="MetaGem_SearingWounds" xml:space="preserve">
+    <value>灼燒創傷</value>
+  </data>
+  <data name="MetaGem_Spellweaver" xml:space="preserve">
+    <value>織咒者</value>
+  </data>
+  <data name="MetaGem_ThousandCuts" xml:space="preserve">
+    <value>千刀萬剮</value>
+  </data>
+  <data name="MetaGem_HyperCharger" xml:space="preserve">
+    <value>超級充能器</value>
+  </data>
+  <data name="MetaGem_VolatileStrike" xml:space="preserve">
+    <value>爆裂打擊</value>
+  </data>
+  <data name="MetaGem_ChargedWounds" xml:space="preserve">
+    <value>充能傷痕</value>
+  </data>
+  <data name="MetaGem_Detonator" xml:space="preserve">
+    <value>引爆器</value>
+  </data>
+  <data name="MetaGem_HiddenPower" xml:space="preserve">
+    <value>隱秘能量</value>
+  </data>
+  <data name="MetaGem_Insulator" xml:space="preserve">
+    <value>絕緣體</value>
+  </data>
+  <data name="MetaGem_Repercussion" xml:space="preserve">
+    <value>反響</value>
+  </data>
+  <data name="MetaGem_SuperHeated" xml:space="preserve">
+    <value>過熱</value>
+  </data>
+  <data name="Relic_Consumable_BloomingHeart" xml:space="preserve">
+    <value>綻放之心</value>
+  </data>
+  <data name="Relic_Consumable_ConstrainedHeart" xml:space="preserve">
+    <value>約束之心</value>
+  </data>
+  <data name="Relic_Consumable_CrystalHeart" xml:space="preserve">
+    <value>水晶之心</value>
+  </data>
+  <data name="Relic_Consumable_DecayedHeart" xml:space="preserve">
+    <value>腐朽之心</value>
+  </data>
+  <data name="Relic_Consumable_DivertingHeart" xml:space="preserve">
+    <value>轉變之心</value>
+  </data>
+  <data name="Relic_Consumable_EnlargedHeart" xml:space="preserve">
+    <value>膨大心臟</value>
+  </data>
+  <data name="Relic_Consumable_LifelessHeart" xml:space="preserve">
+    <value>萎靡之心</value>
+  </data>
+  <data name="Relic_Consumable_PulsingHeart" xml:space="preserve">
+    <value>跳動之心</value>
+  </data>
+  <data name="Relic_Consumable_QuiltedHeart" xml:space="preserve">
+    <value>縫合之心</value>
+  </data>
+  <data name="Relic_Consumable_ReprocessedHeart" xml:space="preserve">
+    <value>再生之心</value>
+  </data>
+  <data name="Relic_Consumable_ResonatingHeart" xml:space="preserve">
+    <value>共鳴之心</value>
+  </data>
+  <data name="Relic_Consumable_RipenedHeart" xml:space="preserve">
+    <value>成熟之心</value>
+  </data>
+  <data name="Relic_Consumable_RunedHeart" xml:space="preserve">
+    <value>符文之心</value>
+  </data>
+  <data name="Relic_Consumable_SalvagedHeart" xml:space="preserve">
+    <value>挽回之心</value>
+  </data>
+  <data name="Relic_Consumable_ShieldedHeart" xml:space="preserve">
+    <value>防護之心</value>
+  </data>
+  <data name="Relic_Consumable_SiphonHeart" xml:space="preserve">
+    <value>汲取之心</value>
+  </data>
+  <data name="Relic_Consumable_TormentedHeart" xml:space="preserve">
+    <value>折磨之心</value>
+  </data>
+  <data name="Relic_Consumable_TranquilHeart" xml:space="preserve">
+    <value>平穩之心</value>
+  </data>
+  <data name="Relic_Consumable_UnsulliedHeart" xml:space="preserve">
+    <value>清白之心</value>
+  </data>
+  <data name="Relic_Consumable_VoidHeart" xml:space="preserve">
+    <value>虛空之心</value>
+  </data>
+  <data name="Relic_Consumable_BrokenHeart" xml:space="preserve">
+    <value>破碎之心</value>
+  </data>
+  <data name="Relic_Consumable_PaperHeart" xml:space="preserve">
+    <value>紙之心</value>
+  </data>
+  <data name="Relic_Consumable_BloodlessHeart" xml:space="preserve">
+    <value>斷血之心</value>
+  </data>
+  <data name="Relic_Consumable_ProfaneHeart" xml:space="preserve">
+    <value>褻瀆之心</value>
+  </data>
+  <data name="Relic_Consumable_GossamerHeart" xml:space="preserve">
+    <value>纖薄之心</value>
+  </data>
+  <data name="Relic_Consumable_LatentHeart" xml:space="preserve">
+    <value>潛心</value>
+  </data>
+  <data name="Ring_RingOfTheAdmiral" xml:space="preserve">
+    <value>破損的上將戒指</value>
+  </data>
+  <data name="Ring_ProvisionerRing" xml:space="preserve">
+    <value>供應者戒指</value>
+  </data>
+  <data name="Ring_AkariWarBand" xml:space="preserve">
+    <value>阿卡里戰爭指環</value>
+  </data>
+  <data name="Ring_AmberMoonstone" xml:space="preserve">
+    <value>琥珀月光石</value>
+  </data>
+  <data name="Ring_BandOfAccord" xml:space="preserve">
+    <value>協調指環</value>
+  </data>
+  <data name="Ring_BlackCatBand" xml:space="preserve">
+    <value>黑貓指環</value>
+  </data>
+  <data name="Ring_BlessedRing" xml:space="preserve">
+    <value>祝福戒指</value>
+  </data>
+  <data name="Ring_BraidedThorns" xml:space="preserve">
+    <value>編織棘刺</value>
+  </data>
+  <data name="Ring_BrightSteelRing" xml:space="preserve">
+    <value>暗淡鋼戒</value>
+  </data>
+  <data name="Ring_BurdenOfTheGambler" xml:space="preserve">
+    <value>賭徒之負擔</value>
+  </data>
+  <data name="Ring_CompulsionLoop" xml:space="preserve">
+    <value>強制之環</value>
+  </data>
+  <data name="Ring_DeceiversBand" xml:space="preserve">
+    <value>欺騙者指環</value>
+  </data>
+  <data name="Ring_DevouringLoop" xml:space="preserve">
+    <value>吞噬指環</value>
+  </data>
+  <data name="Ring_DranScavengerSigil" xml:space="preserve">
+    <value>德蘭拾荒者戒指</value>
+  </data>
+  <data name="Ring_DrzyrSniperSigil" xml:space="preserve">
+    <value>澤厄爾狙擊手魔符</value>
+  </data>
+  <data name="Ring_GunslingersRing" xml:space="preserve">
+    <value>槍手戒指</value>
+  </data>
+  <data name="Ring_PanMageSigil" xml:space="preserve">
+    <value>阿哈內水晶</value>
+  </data>
+  <data name="Ring_RockOfAnguish" xml:space="preserve">
+    <value>痛苦之巖</value>
+  </data>
+  <data name="Ring_TarnishedRing" xml:space="preserve">
+    <value>污穢戒指</value>
+  </data>
+  <data name="Ring_AlchemyStone" xml:space="preserve">
+    <value>煉金術之石</value>
+  </data>
+  <data name="Ring_AlumniRing" xml:space="preserve">
+    <value>同窗戒指</value>
+  </data>
+  <data name="Ring_AssassinsSeal" xml:space="preserve">
+    <value>刺客封印</value>
+  </data>
+  <data name="Ring_BlackPawnStamp" xml:space="preserve">
+    <value>黑卒印記</value>
+  </data>
+  <data name="Ring_BoosterRing" xml:space="preserve">
+    <value>鼓舞戒指</value>
+  </data>
+  <data name="Ring_BurdenOfTheDivine" xml:space="preserve">
+    <value>神職者之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheWarlock" xml:space="preserve">
+    <value>術士之負擔</value>
+  </data>
+  <data name="Ring_CatalogersJewel" xml:space="preserve">
+    <value>編目員珠寶</value>
+  </data>
+  <data name="Ring_DrakestonePearl" xml:space="preserve">
+    <value>龍石珍珠</value>
+  </data>
+  <data name="Ring_DranMemento" xml:space="preserve">
+    <value>德蘭族的紀念品</value>
+  </data>
+  <data name="Ring_FaeShamanRing" xml:space="preserve">
+    <value>翡族薩滿戒指</value>
+  </data>
+  <data name="Ring_DreadFont" xml:space="preserve">
+    <value>恐懼之泉</value>
+  </data>
+  <data name="Ring_FaeBruiserRing" xml:space="preserve">
+    <value>翡族力士戒指</value>
+  </data>
+  <data name="Ring_FaeHunterRing" xml:space="preserve">
+    <value>翡族獵人戒指</value>
+  </data>
+  <data name="Ring_FaelinsSigil" xml:space="preserve">
+    <value>翡凌魔符</value>
+  </data>
+  <data name="Ring_FaeProtectorSignet" xml:space="preserve">
+    <value>翡族守護者印章</value>
+  </data>
+  <data name="Ring_FaerinsSigil" xml:space="preserve">
+    <value>翡麟魔符</value>
+  </data>
+  <data name="Ring_FaeWarriorRing" xml:space="preserve">
+    <value>翡族戰士戒指</value>
+  </data>
+  <data name="Ring_FeastmastersSignet" xml:space="preserve">
+    <value>盛宴大師印章</value>
+  </data>
+  <data name="Ring_FireStone" xml:space="preserve">
+    <value>火焰石</value>
+  </data>
+  <data name="Ring_GameMastersPride" xml:space="preserve">
+    <value>游戲大師的驕傲</value>
+  </data>
+  <data name="Ring_GroundingStone" xml:space="preserve">
+    <value>接地之石</value>
+  </data>
+  <data name="Ring_HexWard" xml:space="preserve">
+    <value>妖魔實驗區</value>
+  </data>
+  <data name="Ring_OutcastRing" xml:space="preserve">
+    <value>放逐者戒指</value>
+  </data>
+  <data name="Ring_RingOfGrace" xml:space="preserve">
+    <value>優雅戒指</value>
+  </data>
+  <data name="Ring_RingOfRetribution" xml:space="preserve">
+    <value>報應戒指</value>
+  </data>
+  <data name="Ring_RingOfTheRobust" xml:space="preserve">
+    <value>粗野戒指</value>
+  </data>
+  <data name="Ring_RustedHeirloom" xml:space="preserve">
+    <value>銹蝕傳家寶</value>
+  </data>
+  <data name="Ring_SapphireDreamstone" xml:space="preserve">
+    <value>藍寶夢石</value>
+  </data>
+  <data name="Ring_ShinyHogLure" xml:space="preserve">
+    <value>閃亮野豬誘戒</value>
+  </data>
+  <data name="Ring_SingedRing" xml:space="preserve">
+    <value>焦糊戒指</value>
+  </data>
+  <data name="Ring_StockpileCharger" xml:space="preserve">
+    <value>儲備充能器</value>
+  </data>
+  <data name="Ring_StoneOfMalevolence" xml:space="preserve">
+    <value>惡毒之石</value>
+  </data>
+  <data name="Ring_StreamCoupler" xml:space="preserve">
+    <value>能量耦合器</value>
+  </data>
+  <data name="Ring_StrongArmBand" xml:space="preserve">
+    <value>詛咒之戒</value>
+  </data>
+  <data name="Ring_TimekeepersJewel" xml:space="preserve">
+    <value>計時者寶戒</value>
+  </data>
+  <data name="Ring_WhitePawnStamp" xml:space="preserve">
+    <value>白卒印記</value>
+  </data>
+  <data name="Ring_ArchersCrest" xml:space="preserve">
+    <value>弓箭手紋章</value>
+  </data>
+  <data name="Ring_BandBand" xml:space="preserve">
+    <value>團隊指環</value>
+  </data>
+  <data name="Ring_BerserkersCrest" xml:space="preserve">
+    <value>狂戰士紋章</value>
+  </data>
+  <data name="Ring_BloodJewel" xml:space="preserve">
+    <value>鮮血珠寶</value>
+  </data>
+  <data name="Ring_BloodTingedRing" xml:space="preserve">
+    <value>染血戒指</value>
+  </data>
+  <data name="Ring_BurdenOfTheFollower" xml:space="preserve">
+    <value>追隨者之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheRebel" xml:space="preserve">
+    <value>反叛者之負擔</value>
+  </data>
+  <data name="Ring_CaptainsInsignia" xml:space="preserve">
+    <value>隊長的徽記</value>
+  </data>
+  <data name="Ring_CelerityStone" xml:space="preserve">
+    <value>迅捷之石</value>
+  </data>
+  <data name="Ring_EndairasEndlessLoop" xml:space="preserve">
+    <value>恩達瑞亞的無盡之環</value>
+  </data>
+  <data name="Ring_FrivolousBand" xml:space="preserve">
+    <value>忽略指環</value>
+  </data>
+  <data name="Ring_GuardiansRing" xml:space="preserve">
+    <value>守護生物戒指</value>
+  </data>
+  <data name="Ring_HardenedCoil" xml:space="preserve">
+    <value>硬化指圈</value>
+  </data>
+  <data name="Ring_HeartOfTheWolf" xml:space="preserve">
+    <value>黑狼之心</value>
+  </data>
+  <data name="Ring_LithicSignet" xml:space="preserve">
+    <value>石質印章</value>
+  </data>
+  <data name="Ring_LodestoneRing" xml:space="preserve">
+    <value>磁石戒指</value>
+  </data>
+  <data name="Ring_AcidStone" xml:space="preserve">
+    <value>強酸石</value>
+  </data>
+  <data name="Ring_RestrictionCord" xml:space="preserve">
+    <value>約束帶</value>
+  </data>
+  <data name="Ring_RingOfDiversion" xml:space="preserve">
+    <value>分流戒指</value>
+  </data>
+  <data name="Ring_RingOfOmens" xml:space="preserve">
+    <value>預兆戒指</value>
+  </data>
+  <data name="Ring_RingOfTheForestSpirit" xml:space="preserve">
+    <value>林魂戒指</value>
+  </data>
+  <data name="Ring_Rotward" xml:space="preserve">
+    <value>腐壞之區</value>
+  </data>
+  <data name="Ring_Sagestone" xml:space="preserve">
+    <value>賢者之石</value>
+  </data>
+  <data name="Ring_SealOfTheEmpress" xml:space="preserve">
+    <value>女皇封印</value>
+  </data>
+  <data name="Ring_SlayersCrest" xml:space="preserve">
+    <value>屠殺者紋章戒</value>
+  </data>
+  <data name="Ring_SoulGuard" xml:space="preserve">
+    <value>靈魂守衛</value>
+  </data>
+  <data name="Ring_SoulLink" xml:space="preserve">
+    <value>靈魂連接</value>
+  </data>
+  <data name="Ring_SpiritStone" xml:space="preserve">
+    <value>精神之石</value>
+  </data>
+  <data name="Ring_StoneOfBalance" xml:space="preserve">
+    <value>平衡之石</value>
+  </data>
+  <data name="Ring_TearOfKaeula" xml:space="preserve">
+    <value>庫埃拉之淚</value>
+  </data>
+  <data name="Ring_TempestConduit" xml:space="preserve">
+    <value>暴風之渠</value>
+  </data>
+  <data name="Ring_TombDwellersRing" xml:space="preserve">
+    <value>墓居者戒指</value>
+  </data>
+  <data name="Ring_VestigeOfPower" xml:space="preserve">
+    <value>力量殘響</value>
+  </data>
+  <data name="Ring_WaxSealedRing" xml:space="preserve">
+    <value>蠟封戒指</value>
+  </data>
+  <data name="Ring_WindHollowCirclet" xml:space="preserve">
+    <value>風洞飾環</value>
+  </data>
+  <data name="Ring_ZoheesRing" xml:space="preserve">
+    <value>佐曦的戒指</value>
+  </data>
+  <data name="Ring_BisectedRing" xml:space="preserve">
+    <value>平分戒指</value>
+  </data>
+  <data name="Ring_DenseSiliconRing" xml:space="preserve">
+    <value>密硅戒指 </value>
+  </data>
+  <data name="Ring_EncryptedLoop" xml:space="preserve">
+    <value>加密戒指</value>
+  </data>
+  <data name="Ring_ShardBandedRing" xml:space="preserve">
+    <value>碎片重鑄戒指</value>
+  </data>
+  <data name="Ring_BlackoutRing" xml:space="preserve">
+    <value>遮光戒指</value>
+  </data>
+  <data name="Ring_BlastingCapRing" xml:space="preserve">
+    <value>雷管戒指</value>
+  </data>
+  <data name="Ring_BurdenOfTheMariner" xml:space="preserve">
+    <value>水手之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheStargazer" xml:space="preserve">
+    <value>占星師之負擔</value>
+  </data>
+  <data name="Ring_ConservationSeal" xml:space="preserve">
+    <value>保存封印</value>
+  </data>
+  <data name="Ring_ConstantVariableRing" xml:space="preserve">
+    <value>恒變戒指</value>
+  </data>
+  <data name="Ring_DeepPocketRing" xml:space="preserve">
+    <value>深袋戒指</value>
+  </data>
+  <data name="Ring_DefensiveActionLoop" xml:space="preserve">
+    <value>行動防御指環</value>
+  </data>
+  <data name="Ring_DowngradedRing" xml:space="preserve">
+    <value>沙哈拉的擁抱</value>
+  </data>
+  <data name="Ring_ExcessCoil" xml:space="preserve">
+    <value>超額指圈</value>
+  </data>
+  <data name="Ring_FeedbackLoop" xml:space="preserve">
+    <value>回饋之環</value>
+  </data>
+  <data name="Ring_FocusedJewel" xml:space="preserve">
+    <value>聚焦碎片</value>
+  </data>
+  <data name="Ring_GalvanizedResupplyBand" xml:space="preserve">
+    <value>補鋅指環</value>
+  </data>
+  <data name="Ring_GeneratingBand" xml:space="preserve">
+    <value>生成指環</value>
+  </data>
+  <data name="Ring_HardcoreMetalBand" xml:space="preserve">
+    <value>硬核金屬指環</value>
+  </data>
+  <data name="Ring_LowYieldRecoveryRing" xml:space="preserve">
+    <value>低產回復戒指</value>
+  </data>
+  <data name="Ring_MetalDriver" xml:space="preserve">
+    <value>金屬驅動</value>
+  </data>
+  <data name="Ring_MeteoriteShardRing" xml:space="preserve">
+    <value>隕石碎片戒指</value>
+  </data>
+  <data name="Ring_Microcompressor" xml:space="preserve">
+    <value>微壓縮器</value>
+  </data>
+  <data name="Ring_MomentumDriver" xml:space="preserve">
+    <value>動量驅動</value>
+  </data>
+  <data name="Ring_PointFocusRing" xml:space="preserve">
+    <value>對焦戒指</value>
+  </data>
+  <data name="Ring_PowerSaver" xml:space="preserve">
+    <value>節能</value>
+  </data>
+  <data name="Ring_PropulsionLoop" xml:space="preserve">
+    <value>推進指環</value>
+  </data>
+  <data name="Ring_ReroutingCable" xml:space="preserve">
+    <value>變線電纜</value>
+  </data>
+  <data name="Ring_ReserveBoostingGem" xml:space="preserve">
+    <value>絕處逢生指環</value>
+  </data>
+  <data name="Ring_RingOfCrisis" xml:space="preserve">
+    <value>危機戒指</value>
+  </data>
+  <data name="Ring_RingOfDeflection" xml:space="preserve">
+    <value>偏轉戒指</value>
+  </data>
+  <data name="Ring_RingOfRestocking" xml:space="preserve">
+    <value>速填戒指</value>
+  </data>
+  <data name="Ring_StoneOfContinuance" xml:space="preserve">
+    <value>延續之石</value>
+  </data>
+  <data name="Ring_StoneOfExpanse" xml:space="preserve">
+    <value>擴張之石</value>
+  </data>
+  <data name="Ring_SubterfugeLink" xml:space="preserve">
+    <value>詭計連結</value>
+  </data>
+  <data name="Ring_SuppressionWard" xml:space="preserve">
+    <value>鎮壓實驗區</value>
+  </data>
+  <data name="Ring_TargetingJewel" xml:space="preserve">
+    <value>瞄準珠寶</value>
+  </data>
+  <data name="Ring_TightlyWoundCoil" xml:space="preserve">
+    <value>緊繞指圈</value>
+  </data>
+  <data name="Ring_VacuumSeal" xml:space="preserve">
+    <value>吸力封印</value>
+  </data>
+  <data name="Ring_AnastasijasInspiration" xml:space="preserve">
+    <value>阿納斯塔西婭的靈感</value>
+  </data>
+  <data name="Ring_BurdenOfTheAudacious" xml:space="preserve">
+    <value>冒險者之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheDestroyer" xml:space="preserve">
+    <value>破壞者之負擔</value>
+  </data>
+  <data name="Ring_DeadKingsMemento" xml:space="preserve">
+    <value>先王的紀念品</value>
+  </data>
+  <data name="Ring_DyingEmber" xml:space="preserve">
+    <value>將熄余燼</value>
+  </data>
+  <data name="Ring_FlyweightsSting" xml:space="preserve">
+    <value>蠅量刺痛</value>
+  </data>
+  <data name="Ring_HaymakersRing" xml:space="preserve">
+    <value>強擊者之戒</value>
+  </data>
+  <data name="Ring_KineticCycleStone" xml:space="preserve">
+    <value>動能環之石</value>
+  </data>
+  <data name="Ring_MechanicsCog" xml:space="preserve">
+    <value>機械師的齒輪</value>
+  </data>
+  <data name="Ring_ProbabilityCord" xml:space="preserve">
+    <value>幾率之圈</value>
+  </data>
+  <data name="Ring_ReapingStone" xml:space="preserve">
+    <value>收割之石</value>
+  </data>
+  <data name="Ring_RingOfFlawedBeauty" xml:space="preserve">
+    <value>缺陷美戒指</value>
+  </data>
+  <data name="Ring_ZaniasMalice" xml:space="preserve">
+    <value>扎尼亞的惡意</value>
+  </data>
+  <data name="Ring_ATaeriiBooster" xml:space="preserve">
+    <value>阿泰里助推</value>
+  </data>
+  <data name="Ring_AtonementFold" xml:space="preserve">
+    <value>贖罪皺襞</value>
+  </data>
+  <data name="Ring_BandOfTheFanatic" xml:space="preserve">
+    <value>狂熱者指環</value>
+  </data>
+  <data name="Ring_BitterMemento" xml:space="preserve">
+    <value>苦澀的紀念品</value>
+  </data>
+  <data name="Ring_BrawlersPride" xml:space="preserve">
+    <value>格斗家的驕傲</value>
+  </data>
+  <data name="Ring_BridgeWardensCrest" xml:space="preserve">
+    <value>守橋者紋章</value>
+  </data>
+  <data name="Ring_BurdenOfTheDeparted" xml:space="preserve">
+    <value>逝去者之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheSciolist" xml:space="preserve">
+    <value>偽智者之負擔</value>
+  </data>
+  <data name="Ring_CrimsonDreamstone" xml:space="preserve">
+    <value>緋紅夢石</value>
+  </data>
+  <data name="Ring_DigestedHogLure" xml:space="preserve">
+    <value>已消化的豬餌料</value>
+  </data>
+  <data name="Ring_DriedClayRing" xml:space="preserve">
+    <value>干陶戒指</value>
+  </data>
+  <data name="Ring_ElevatedRing" xml:space="preserve">
+    <value>高升戒指</value>
+  </data>
+  <data name="Ring_JewelOfTheBeholden" xml:space="preserve">
+    <value>感恩珠寶</value>
+  </data>
+  <data name="Ring_LightHouseKeepersRing" xml:space="preserve">
+    <value>燈塔守衛的戒指</value>
+  </data>
+  <data name="Ring_OfferingStone" xml:space="preserve">
+    <value>祭品之石</value>
+  </data>
+  <data name="Ring_PainlessObsidian" xml:space="preserve">
+    <value>無痛黑曜石</value>
+  </data>
+  <data name="Ring_PowerComplex" xml:space="preserve">
+    <value>能量園區</value>
+  </data>
+  <data name="Ring_RedRingOfDeath" xml:space="preserve">
+    <value>死亡紅戒</value>
+  </data>
+  <data name="Ring_RingOfInfiniteDamage" xml:space="preserve">
+    <value>無限傷害戒指</value>
+  </data>
+  <data name="Ring_RingOfTheCastaway" xml:space="preserve">
+    <value>放逐者戒指</value>
+  </data>
+  <data name="Ring_RingOfTheVain" xml:space="preserve">
+    <value>虛無指環</value>
+  </data>
+  <data name="Ring_ShadowOfMisery" xml:space="preserve">
+    <value>痛苦之影</value>
+  </data>
+  <data name="Ring_ShaedStone" xml:space="preserve">
+    <value>剎邸之石</value>
+  </data>
+  <data name="Ring_SoulShard" xml:space="preserve">
+    <value>靈魂碎片</value>
+  </data>
+  <data name="Ring_WhiteGlassBead" xml:space="preserve">
+    <value>白色玻璃珠</value>
+  </data>
+  <data name="Ring_WoodRing" xml:space="preserve">
+    <value>木質戒指</value>
+  </data>
+  <data name="Ring_BlackSpinel" xml:space="preserve">
+    <value>黑色尖晶</value>
+  </data>
+  <data name="Ring_BloodlessKingsVow" xml:space="preserve">
+    <value>斷血王的誓約</value>
+  </data>
+  <data name="Ring_BurdenOfTheMason" xml:space="preserve">
+    <value>石匠之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheMesmer" xml:space="preserve">
+    <value>梅斯梅爾之負擔</value>
+  </data>
+  <data name="Ring_ClosedLoop" xml:space="preserve">
+    <value>閉環</value>
+  </data>
+  <data name="Ring_ConjurersCircle" xml:space="preserve">
+    <value>魔術師之環</value>
+  </data>
+  <data name="Ring_DarkSeaArmadaCrest" xml:space="preserve">
+    <value>黑暗之海艦隊紋章戒</value>
+  </data>
+  <data name="Ring_FeatheryBinding" xml:space="preserve">
+    <value>輕羽之約</value>
+  </data>
+  <data name="Ring_FloodlitDiamond" xml:space="preserve">
+    <value>泛光鉆戒</value>
+  </data>
+  <data name="Ring_GulSignet" xml:space="preserve">
+    <value>古爾人之印</value>
+  </data>
+  <data name="Ring_KolketEyelet" xml:space="preserve">
+    <value>科爾凱特圈戒</value>
+  </data>
+  <data name="Ring_LeakingGemstone" xml:space="preserve">
+    <value>寶石滲漏</value>
+  </data>
+  <data name="Ring_MarkOfTheDestroyer" xml:space="preserve">
+    <value>破壞者的標記</value>
+  </data>
+  <data name="Ring_MatriarchsRing" xml:space="preserve">
+    <value>女族長之戒</value>
+  </data>
+  <data name="Ring_PanWarBand" xml:space="preserve">
+    <value>潘恩戰爭指環</value>
+  </data>
+  <data name="Ring_RallyBand" xml:space="preserve">
+    <value>團結指環</value>
+  </data>
+  <data name="Ring_RavagersBargain" xml:space="preserve">
+    <value>劫掠者的交易</value>
+  </data>
+  <data name="Ring_RingOfOrdnance" xml:space="preserve">
+    <value>軍火之戒</value>
+  </data>
+  <data name="Ring_RingOfSpirits" xml:space="preserve">
+    <value>靈魂之戒</value>
+  </data>
+  <data name="Ring_SealedResinLoop" xml:space="preserve">
+    <value>封印的樹脂戒</value>
+  </data>
+  <data name="Ring_SoulFeast" xml:space="preserve">
+    <value>靈魂盛宴</value>
+  </data>
+  <data name="Ring_TearOfLydusa" xml:space="preserve">
+    <value>莉杜莎之淚</value>
+  </data>
+  <data name="Ring_ThalosEyelet" xml:space="preserve">
+    <value>薩洛斯之眼</value>
+  </data>
+  <data name="Ring_TokenOfFavor" xml:space="preserve">
+    <value>歡心令牌</value>
+  </data>
+  <data name="Ring_BreachAccelerator" xml:space="preserve">
+    <value>突破加速器</value>
+  </data>
+  <data name="Ring_BurdenOfTheExcavator" xml:space="preserve">
+    <value>挖掘者之負擔</value>
+  </data>
+  <data name="Ring_BurdenOfTheProtector" xml:space="preserve">
+    <value>守護者之負擔</value>
+  </data>
+  <data name="Ring_BypassPrimer" xml:space="preserve">
+    <value>旁路引子</value>
+  </data>
+  <data name="Ring_ClearHalo" xml:space="preserve">
+    <value>清除光環</value>
+  </data>
+  <data name="Ring_CombatShieldGenerator" xml:space="preserve">
+    <value>戰斗護盾發生器</value>
+  </data>
+  <data name="Ring_CustodiansBastion" xml:space="preserve">
+    <value>保管人的堡壘</value>
+  </data>
+  <data name="Ring_DemolitionCoil" xml:space="preserve">
+    <value>爆破線圈</value>
+  </data>
+  <data name="Ring_DetonatingCord" xml:space="preserve">
+    <value>引爆索</value>
+  </data>
+  <data name="Ring_DisasterConverter" xml:space="preserve">
+    <value>災難轉換器</value>
+  </data>
+  <data name="Ring_EmpoweringLoop" xml:space="preserve">
+    <value>加持之環</value>
+  </data>
+  <data name="Ring_FeedingTube" xml:space="preserve">
+    <value>飼喂管</value>
+  </data>
+  <data name="Ring_ForceMultiplier" xml:space="preserve">
+    <value>力量倍增器</value>
+  </data>
+  <data name="Ring_ImpactAugment" xml:space="preserve">
+    <value>沖擊強化</value>
+  </data>
+  <data name="Ring_InfinityPocket" xml:space="preserve">
+    <value>無限口袋</value>
+  </data>
+  <data name="Ring_MortalCoil" xml:space="preserve">
+    <value>致命鎖鏈</value>
+  </data>
+  <data name="Ring_NanoFiberStrand" xml:space="preserve">
+    <value>納米纖維束</value>
+  </data>
+  <data name="Ring_NightmareSigil" xml:space="preserve">
+    <value>噩夢魔符</value>
+  </data>
+  <data name="Ring_RingOfAshes" xml:space="preserve">
+    <value>灰燼之戒</value>
+  </data>
+  <data name="Ring_RingOfBones" xml:space="preserve">
+    <value>骨戒</value>
+  </data>
+  <data name="Ring_PhantomPain" xml:space="preserve">
+    <value>鬼靈之痛指環</value>
+  </data>
+  <data name="Ring_SecurityHalfMeasure" xml:space="preserve">
+    <value>折中安全措施</value>
+  </data>
+  <data name="Ring_ShieldAlternator" xml:space="preserve">
+    <value>護盾交換器</value>
+  </data>
+  <data name="Ring_SiphonFilter" xml:space="preserve">
+    <value>虹吸濾器</value>
+  </data>
+  <data name="Ring_SpiritAlternator" xml:space="preserve">
+    <value>靈體交換器</value>
+  </data>
+  <data name="Ring_StoneOfRevelation" xml:space="preserve">
+    <value>啟示之石</value>
+  </data>
+  <data name="Ring_StrandOfSinew" xml:space="preserve">
+    <value>筋腱束</value>
+  </data>
+  <data name="Ring_SymbolOfRoyalty" xml:space="preserve">
+    <value>皇室象征</value>
+  </data>
+  <data name="Ring_ToleranceBand" xml:space="preserve">
+    <value>容忍指環</value>
+  </data>
+  <data name="Ring_TransientCord" xml:space="preserve">
+    <value>瞬時圈</value>
+  </data>
+  <data name="Ring_WiredInhibitor" xml:space="preserve">
+    <value>有線抑制器</value>
+  </data>
+  <data name="Trait_AmmoReserves" xml:space="preserve">
+    <value>彈藥儲備</value>
+  </data>
+  <data name="Trait_Amplitude" xml:space="preserve">
+    <value>振幅</value>
+  </data>
+  <data name="Trait_FlashCaster" xml:space="preserve">
+    <value>急速施法者</value>
+  </data>
+  <data name="Trait_Fortify" xml:space="preserve">
+    <value>堅韌</value>
+  </data>
+  <data name="Trait_Kinship" xml:space="preserve">
+    <value>親朋好友</value>
+  </data>
+  <data name="Trait_Longshot" xml:space="preserve">
+    <value>遠射</value>
+  </data>
+  <data name="Trait_Potency" xml:space="preserve">
+    <value>效能</value>
+  </data>
+  <data name="Trait_Regrowth" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Trait_StrongBack" xml:space="preserve">
+    <value>強壯脊背</value>
+  </data>
+  <data name="Trait_Swiftness" xml:space="preserve">
+    <value>迅捷</value>
+  </data>
+  <data name="Trait_Triage" xml:space="preserve">
+    <value>戰場急救</value>
+  </data>
+  <data name="Trait_Untouchable" xml:space="preserve">
+    <value>無法觸及</value>
+  </data>
+  <data name="Trait_ArcaneStrike" xml:space="preserve">
+    <value>奧術攻擊</value>
+  </data>
+  <data name="Trait_Barkskin" xml:space="preserve">
+    <value>樹皮</value>
+  </data>
+  <data name="Trait_BloodBond" xml:space="preserve">
+    <value>血之紐帶</value>
+  </data>
+  <data name="Trait_Bloodstream" xml:space="preserve">
+    <value>血流</value>
+  </data>
+  <data name="Trait_Endurance" xml:space="preserve">
+    <value>耐力</value>
+  </data>
+  <data name="Trait_Expertise" xml:space="preserve">
+    <value>專業技能</value>
+  </data>
+  <data name="Trait_Fitness" xml:space="preserve">
+    <value>強健</value>
+  </data>
+  <data name="Trait_Footwork" xml:space="preserve">
+    <value>步法</value>
+  </data>
+  <data name="Trait_Glutton" xml:space="preserve">
+    <value>饕餮</value>
+  </data>
+  <data name="Trait_Handling" xml:space="preserve">
+    <value>操控性</value>
+  </data>
+  <data name="Trait_Recovery" xml:space="preserve">
+    <value>回復</value>
+  </data>
+  <data name="Trait_Resonance" xml:space="preserve">
+    <value>回響</value>
+  </data>
+  <data name="Trait_Revivalist" xml:space="preserve">
+    <value>復活師</value>
+  </data>
+  <data name="Trait_Rugged" xml:space="preserve">
+    <value>粗獷</value>
+  </data>
+  <data name="Trait_Scholar" xml:space="preserve">
+    <value>學者</value>
+  </data>
+  <data name="Trait_Shadeskin" xml:space="preserve">
+    <value>暗影肌膚</value>
+  </data>
+  <data name="Trait_Siphoner" xml:space="preserve">
+    <value>虹吸者</value>
+  </data>
+  <data name="Trait_Spirit" xml:space="preserve">
+    <value>精神</value>
+  </data>
+  <data name="Trait_Vigor" xml:space="preserve">
+    <value>活力</value>
+  </data>
+  <data name="Trait_Wayfarer" xml:space="preserve">
+    <value>旅行家</value>
+  </data>
+  <data name="Trait_Affliction" xml:space="preserve">
+    <value>折磨</value>
+  </data>
+  <data name="Trait_DarkPact" xml:space="preserve">
+    <value>黑暗契約</value>
+  </data>
+  <data name="Trait_Chakra" xml:space="preserve">
+    <value>查克拉</value>
+  </data>
+  <data name="Trait_Leech" xml:space="preserve">
+    <value>水蛭</value>
+  </data>
+  <data name="Trait_Gifted" xml:space="preserve">
+    <value>天賦</value>
+  </data>
+  <data name="Trait_Resolute" xml:space="preserve">
+    <value>堅決</value>
+  </data>
+  <data name="Trait_Barrier" xml:space="preserve">
+    <value>屏障</value>
+  </data>
+  <data name="Trait_Insight" xml:space="preserve">
+    <value>洞察</value>
+  </data>
+  <data name="Trait_Perception" xml:space="preserve">
+    <value>感知</value>
+  </data>
+  <data name="Trait_Preservation" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="Weapon_CubeGun" xml:space="preserve">
+    <value>魔方槍</value>
+  </data>
+  <data name="Weapon_Enigma" xml:space="preserve">
+    <value>奧秘</value>
+  </data>
+  <data name="Weapon_Hellfire" xml:space="preserve">
+    <value>地獄火</value>
+  </data>
+  <data name="Weapon_Meridian" xml:space="preserve">
+    <value>巔峰</value>
+  </data>
+  <data name="Weapon_Nebula" xml:space="preserve">
+    <value>星云</value>
+  </data>
+  <data name="Weapon_RunePistol" xml:space="preserve">
+    <value>符文手槍</value>
+  </data>
+  <data name="Weapon_Sorrow" xml:space="preserve">
+    <value>哀痛</value>
+  </data>
+  <data name="Weapon_StarShot" xml:space="preserve">
+    <value>星辰射擊</value>
+  </data>
+  <data name="Weapon_BoltDriver" xml:space="preserve">
+    <value>動量驅動</value>
+  </data>
+  <data name="Weapon_HuntingPistol" xml:space="preserve">
+    <value>彈無虛發</value>
+  </data>
+  <data name="Weapon_MachinePistol" xml:space="preserve">
+    <value>技-22</value>
+  </data>
+  <data name="Weapon_Magnum" xml:space="preserve">
+    <value>銀背 500 型</value>
+  </data>
+  <data name="Weapon_Repeater_Rusty" xml:space="preserve">
+    <value>銹蝕連發槍</value>
+  </data>
+  <data name="Weapon_Repeater" xml:space="preserve">
+    <value>連發手槍</value>
+  </data>
+  <data name="Weapon_Revolver" xml:space="preserve">
+    <value>西部經典</value>
+  </data>
+  <data name="Weapon_RuptureCannon" xml:space="preserve">
+    <value>破裂炮</value>
+  </data>
+  <data name="Weapon_ServicePistol" xml:space="preserve">
+    <value>服役手槍</value>
+  </data>
+  <data name="Weapon_ShortBarrel" xml:space="preserve">
+    <value>雙管</value>
+  </data>
+  <data name="Weapon_SMG" xml:space="preserve">
+    <value>MP60—R</value>
+  </data>
+  <data name="Weapon_AlphaOmega" xml:space="preserve">
+    <value>始與終</value>
+  </data>
+  <data name="Weapon_Aphelion" xml:space="preserve">
+    <value>遠日點</value>
+  </data>
+  <data name="Weapon_CrescentMoon" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="Weapon_Deceit" xml:space="preserve">
+    <value>謊言</value>
+  </data>
+  <data name="Weapon_Merciless" xml:space="preserve">
+    <value>無情</value>
+  </data>
+  <data name="Weapon_Nightfall" xml:space="preserve">
+    <value>日暮</value>
+  </data>
+  <data name="Weapon_PlasmaCutter" xml:space="preserve">
+    <value>等離子切割者</value>
+  </data>
+  <data name="Weapon_Repulsor" xml:space="preserve">
+    <value>反擊者</value>
+  </data>
+  <data name="Weapon_Sagittarius" xml:space="preserve">
+    <value>人馬宮</value>
+  </data>
+  <data name="Weapon_Savior" xml:space="preserve">
+    <value>拯救者</value>
+  </data>
+  <data name="Weapon_Sporebloom" xml:space="preserve">
+    <value>孢子噴射</value>
+  </data>
+  <data name="Weapon_Starkiller" xml:space="preserve">
+    <value>弒星者</value>
+  </data>
+  <data name="Weapon_TwistedArbalest" xml:space="preserve">
+    <value>扭曲勁弩</value>
+  </data>
+  <data name="Weapon_AssaultRifle" xml:space="preserve">
+    <value>黑噬 AR-47</value>
+  </data>
+  <data name="Weapon_AutoShotgun" xml:space="preserve">
+    <value>AS-10 “斗牛犬”</value>
+  </data>
+  <data name="Weapon_Bow" xml:space="preserve">
+    <value>皇家獵弓</value>
+  </data>
+  <data name="Weapon_PulseRifle" xml:space="preserve">
+    <value>脈沖步槍</value>
+  </data>
+  <data name="Weapon_CoachGun" xml:space="preserve">
+    <value>雙管霰彈槍</value>
+  </data>
+  <data name="Weapon_Crossbow" xml:space="preserve">
+    <value>弩</value>
+  </data>
+  <data name="Weapon_Huntmaster" xml:space="preserve">
+    <value>狩獵大師-M1</value>
+  </data>
+  <data name="Weapon_LeverAction_Rusty" xml:space="preserve">
+    <value>銹蝕杠桿步槍</value>
+  </data>
+  <data name="Weapon_LeverAction" xml:space="preserve">
+    <value>牧馬人-1860</value>
+  </data>
+  <data name="Weapon_LMG" xml:space="preserve">
+    <value>XMG57 “骨鋸”</value>
+  </data>
+  <data name="Weapon_Shotgun" xml:space="preserve">
+    <value>福特的獵槍</value>
+  </data>
+  <data name="Weapon_SniperRifle" xml:space="preserve">
+    <value>寡婦制造者</value>
+  </data>
+  <data name="Weapon_TommyGun" xml:space="preserve">
+    <value>芝加哥打字機</value>
+  </data>
+  <data name="Weapon_AtomSplitter" xml:space="preserve">
+    <value>原子分裂者</value>
+  </data>
+  <data name="Weapon_Dreamcatcher" xml:space="preserve">
+    <value>捕夢者</value>
+  </data>
+  <data name="Weapon_FeralJudgment" xml:space="preserve">
+    <value>野蠻審判</value>
+  </data>
+  <data name="Weapon_Godsplitter" xml:space="preserve">
+    <value>裂神者</value>
+  </data>
+  <data name="Weapon_HerosSword" xml:space="preserve">
+    <value>英雄長劍</value>
+  </data>
+  <data name="Weapon_HuntressSpear" xml:space="preserve">
+    <value>女獵人之矛</value>
+  </data>
+  <data name="Weapon_LabyrinthStaff" xml:space="preserve">
+    <value>迷宮法杖</value>
+  </data>
+  <data name="Weapon_Nightshade" xml:space="preserve">
+    <value>夜影</value>
+  </data>
+  <data name="Weapon_RedDoeStaff" xml:space="preserve">
+    <value>紅鹿法杖</value>
+  </data>
+  <data name="Weapon_Smolder" xml:space="preserve">
+    <value>陰燃</value>
+  </data>
+  <data name="Weapon_SpectralBlade" xml:space="preserve">
+    <value>幽靈利刃</value>
+  </data>
+  <data name="Weapon_Stonebreaker" xml:space="preserve">
+    <value>裂石</value>
+  </data>
+  <data name="Weapon_TalRatha_Hammer" xml:space="preserve">
+    <value>氣巨人</value>
+  </data>
+  <data name="Weapon_WorldsEdge" xml:space="preserve">
+    <value>世界之刃</value>
+  </data>
+  <data name="Weapon_DecayedClaws" xml:space="preserve">
+    <value>腐朽利爪</value>
+  </data>
+  <data name="Weapon_KnuckleDusters" xml:space="preserve">
+    <value>指節拂塵</value>
+  </data>
+  <data name="Weapon_Claws" xml:space="preserve">
+    <value>銹蝕利爪</value>
+  </data>
+  <data name="Weapon_ViceGrips" xml:space="preserve">
+    <value>老虎鉗</value>
+  </data>
+  <data name="Weapon_Flail" xml:space="preserve">
+    <value>精鋼流星錘</value>
+  </data>
+  <data name="Weapon_OrnateFlail" xml:space="preserve">
+    <value>精巧錘矛</value>
+  </data>
+  <data name="Weapon_Greatsword" xml:space="preserve">
+    <value>鑄鐵巨劍</value>
+  </data>
+  <data name="Weapon_RoyalBroadsword" xml:space="preserve">
+    <value>皇家闊劍</value>
+  </data>
+  <data name="Weapon_AtomSmasher" xml:space="preserve">
+    <value>原子粉碎者</value>
+  </data>
+  <data name="Weapon_Hammer" xml:space="preserve">
+    <value>廢鐵錘</value>
+  </data>
+  <data name="Weapon_BoneChopper" xml:space="preserve">
+    <value>斬骨斧</value>
+  </data>
+  <data name="Weapon_Hatchet" xml:space="preserve">
+    <value>廢鐵手斧</value>
+  </data>
+  <data name="Weapon_KrellAxe" xml:space="preserve">
+    <value>科雷爾斧</value>
+  </data>
+  <data name="Weapon_EdgeOfTheForest" xml:space="preserve">
+    <value>森之緣</value>
+  </data>
+  <data name="Weapon_Katana" xml:space="preserve">
+    <value>精鋼武士刀</value>
+  </data>
+  <data name="Weapon_RebellionSpear" xml:space="preserve">
+    <value>叛亂長矛</value>
+  </data>
+  <data name="Weapon_Spear" xml:space="preserve">
+    <value>精鋼長矛</value>
+  </data>
+  <data name="Weapon_Staff" xml:space="preserve">
+    <value>廢料法杖</value>
+  </data>
+  <data name="Weapon_AssassinsDagger" xml:space="preserve">
+    <value>刺客匕首</value>
+  </data>
+  <data name="Weapon_BladeOfGul" xml:space="preserve">
+    <value>古爾之刃</value>
+  </data>
+  <data name="Weapon_OrnateBlade" xml:space="preserve">
+    <value>華麗利刃</value>
+  </data>
+  <data name="Weapon_Sword" xml:space="preserve">
+    <value>精鋼長劍</value>
+  </data>
+  <data name="Weapon_CorruptedAphelion" xml:space="preserve">
+    <value>腐化遠日點</value>
+  </data>
+  <data name="Weapon_CorruptedDeceit" xml:space="preserve">
+    <value>腐化詭詐</value>
+  </data>
+  <data name="Weapon_CorruptedMerciless" xml:space="preserve">
+    <value>腐化無情</value>
+  </data>
+  <data name="Weapon_CorruptedMeridian" xml:space="preserve">
+    <value>腐化巔峰</value>
+  </data>
+  <data name="Weapon_CorruptedRunePistol" xml:space="preserve">
+    <value>腐化符文手槍</value>
+  </data>
+  <data name="Weapon_Anguish" xml:space="preserve">
+    <value>痛苦</value>
+  </data>
+  <data name="Weapon_Sparkfire" xml:space="preserve">
+    <value>星火霰彈槍</value>
+  </data>
+  <data name="Weapon_RitualistScythe" xml:space="preserve">
+    <value>祭祀者鐮刀</value>
+  </data>
+  <data name="Weapon_Scythe" xml:space="preserve">
+    <value>鋼鐮刀</value>
+  </data>
+  <data name="Weapon_AbyssalHook" xml:space="preserve">
+    <value>深淵之鉤</value>
+  </data>
+  <data name="Weapon_Wrathbringer" xml:space="preserve">
+    <value>狂怒使者</value>
+  </data>
+  <data name="Weapon_Monarch" xml:space="preserve">
+    <value>君王</value>
+  </data>
+  <data name="Weapon_CorruptedSavior" xml:space="preserve">
+    <value>腐化的拯救者</value>
+  </data>
+  <data name="Weapon_CorruptedCubeGun" xml:space="preserve">
+    <value>腐化的棱方槍</value>
+  </data>
+  <data name="Weapon_CorruptedNebula" xml:space="preserve">
+    <value>腐化的星云</value>
+  </data>
+  <data name="Weapon_CorruptedSorrow" xml:space="preserve">
+    <value>腐化的哀痛</value>
+  </data>
+  <data name="Weapon_CorruptedTwistedArbalest" xml:space="preserve">
+    <value>腐化的勁弩</value>
+  </data>
+  <data name="Weapon_BasicShovel" xml:space="preserve">
+    <value>鏟子</value>
+  </data>
+  <data name="Weapon_CrystalStaff" xml:space="preserve">
+    <value>水晶杖</value>
+  </data>
+  <data name="Weapon_Mirage" xml:space="preserve">
+    <value>幻象</value>
+  </data>
+  <data name="Weapon_Monolith" xml:space="preserve">
+    <value>巨石</value>
+  </data>
+  <data name="Weapon_Polygun" xml:space="preserve">
+    <value>聚能槍</value>
+  </data>
+  <data name="Weapon_Thorn" xml:space="preserve">
+    <value>荊棘</value>
+  </data>
+  <data name="Weapon_TrinityCrossbow" xml:space="preserve">
+    <value>三位一體弩</value>
+  </data>
+  <data name="Weapon_BlackGreatsword" xml:space="preserve">
+    <value>黑巨劍</value>
+  </data>
+  <data name="Weapon_DarkMatterGauntlets" xml:space="preserve">
+    <value>暗物質護手</value>
+  </data>
+  <data name="Weapon_Genesis" xml:space="preserve">
+    <value>起源</value>
+  </data>
+  <data name="Weapon_HarvesterScythe" xml:space="preserve">
+    <value>收獲者鐮刀</value>
+  </data>
+  <data name="Weapon_Monorail" xml:space="preserve">
+    <value>單軌</value>
+  </data>
+  <data name="Weapon_Redeemer" xml:space="preserve">
+    <value>救贖者</value>
+  </data>
+  <data name="Weapon_RepairTool" xml:space="preserve">
+    <value>修理工具</value>
+  </data>
+  <data name="Engram_Alchemist" xml:space="preserve">
+    <value>煉金術師</value>
+  </data>
+  <data name="Engram_Archon" xml:space="preserve">
+    <value>執政官</value>
+  </data>
+  <data name="Engram_Challenger" xml:space="preserve">
+    <value>挑戰者</value>
+  </data>
+  <data name="Engram_Engineer" xml:space="preserve">
+    <value>工程師</value>
+  </data>
+  <data name="Engram_Explorer" xml:space="preserve">
+    <value>探索者</value>
+  </data>
+  <data name="Engram_Gunslinger" xml:space="preserve">
+    <value>槍手</value>
+  </data>
+  <data name="Engram_Handler" xml:space="preserve">
+    <value>馴獸師</value>
+  </data>
+  <data name="Engram_Hunter" xml:space="preserve">
+    <value>獵人</value>
+  </data>
+  <data name="Engram_Invader" xml:space="preserve">
+    <value>入侵者</value>
+  </data>
+  <data name="Engram_Medic" xml:space="preserve">
+    <value>醫務兵</value>
+  </data>
+  <data name="Engram_Summoner" xml:space="preserve">
+    <value>召喚師</value>
+  </data>
+  <data name="Engram_Ritualist" xml:space="preserve">
+    <value>祭祀者</value>
+  </data>
+  <data name="Engram_Invoker" xml:space="preserve">
+    <value>祈求者</value>
+  </data>
+  <data name="Engram_Warden" xml:space="preserve">
+    <value>護衛者</value>
+  </data>
+  <data name="Quest_Item_CrimsonKingCoin" xml:space="preserve">
+    <value>紅王硬幣</value>
+  </data>
+  <data name="Quest_Item_ClockTower_Flywheel" xml:space="preserve">
+    <value>發條小齒輪</value>
+  </data>
+  <data name="Quest_Item_CharnelHouse_Anklet" xml:space="preserve">
+    <value>德瑞雅的腳鏈</value>
+  </data>
+  <data name="Quest_Item_RavenousMedallion" xml:space="preserve">
+    <value>貪婪勛章</value>
+  </data>
+  <data name="Quest_Item_Asylum_PrisonKey" xml:space="preserve">
+    <value>牢房鑰匙</value>
+  </data>
+  <data name="Quest_Item_Asylum_StoneDoll_Final" xml:space="preserve">
+    <value>織夜者石像</value>
+  </data>
+  <data name="Quest_Item_Asylum_ThirdFloorKey" xml:space="preserve">
+    <value>精神病院三樓鑰匙</value>
+  </data>
+  <data name="Quest_Item_KolketsKey" xml:space="preserve">
+    <value>科爾凱特的鑰匙</value>
+  </data>
+  <data name="Quest_Item_KolketsRazor" xml:space="preserve">
+    <value>科爾凱特的剃刀</value>
+  </data>
+  <data name="Quest_Item_Consumable_01_FruitOfDeath" xml:space="preserve">
+    <value>死亡之果</value>
+  </data>
+  <data name="Quest_Item_OrnateLockbox" xml:space="preserve">
+    <value>華麗鎖箱</value>
+  </data>
+  <data name="Quest_Item_Extermination_AICore" xml:space="preserve">
+    <value>記憶核心 II</value>
+  </data>
+  <data name="Quest_Item_StasisSiege_Keycard" xml:space="preserve">
+    <value>里斯拉聖院紋飾</value>
+  </data>
+  <data name="Quest_Item_Train_AICore" xml:space="preserve">
+    <value>禮儀密碼</value>
+  </data>
+  <data name="Quest_Item_Core_OverridePin" xml:space="preserve">
+    <value>覆蓋針</value>
+  </data>
+  <data name="Quest_Item_GardenMaze_MausoleumMedallionKey" xml:space="preserve">
+    <value>紀念章鑰匙</value>
+  </data>
+  <data name="Quest_Item_OTK_NimuesBloodWard" xml:space="preserve">
+    <value>尼姆埃的染血誓言</value>
+  </data>
+  <data name="Quest_Item_Story_DwellsItem" xml:space="preserve">
+    <value>三相紀念品</value>
+  </data>
+  <data name="Quest_Item_DLC3_CropSample" xml:space="preserve">
+    <value>作物樣本</value>
+  </data>
+  <data name="Material_RootGanglia" xml:space="preserve">
+    <value>根蔓中樞</value>
+  </data>
+  <data name="Material_CursedDreamSilks" xml:space="preserve">
+    <value>幽怨的夢絲</value>
+  </data>
+  <data name="Material_ImpostersHeart" xml:space="preserve">
+    <value>偽王之心</value>
+  </data>
+  <data name="Material_MeldedHilt" xml:space="preserve">
+    <value>融合劍柄</value>
+  </data>
+  <data name="Material_NightweaversFinger" xml:space="preserve">
+    <value>織夜者手指</value>
+  </data>
+  <data name="Material_AlkahestPowder" xml:space="preserve">
+    <value>萬溶劑粉末</value>
+  </data>
+  <data name="Material_BoneSap" xml:space="preserve">
+    <value>骨漿</value>
+  </data>
+  <data name="Material_ForlornFragment" xml:space="preserve">
+    <value>凄涼碎片</value>
+  </data>
+  <data name="Material_SacredHuntFeather" xml:space="preserve">
+    <value>神聖獵羽</value>
+  </data>
+  <data name="Material_TaintedIchor" xml:space="preserve">
+    <value>污濁靈液</value>
+  </data>
+  <data name="Material_VeneratedSpearhead" xml:space="preserve">
+    <value>尊崇矛頭</value>
+  </data>
+  <data name="Material_AnamysEcho" xml:space="preserve">
+    <value>阿那米回聲</value>
+  </data>
+  <data name="Material_BloodySteelSplinter" xml:space="preserve">
+    <value>血腥鋼刺</value>
+  </data>
+  <data name="Material_BrokenTimepiece" xml:space="preserve">
+    <value>破損時計</value>
+  </data>
+  <data name="Material_CrimsonMembrane" xml:space="preserve">
+    <value>緋紅薄膜</value>
+  </data>
+  <data name="Material_DoesAntler" xml:space="preserve">
+    <value>紅鹿鹿角</value>
+  </data>
+  <data name="Material_HollowHeart" xml:space="preserve">
+    <value>空洞之心</value>
+  </data>
+  <data name="Material_RavagersMaw" xml:space="preserve">
+    <value>劫掠者巨口</value>
+  </data>
+  <data name="Material_TwistedLazurite" xml:space="preserve">
+    <value>扭曲天青石</value>
+  </data>
+  <data name="Material_AgnosiaDriftwood" xml:space="preserve">
+    <value>失認流木</value>
+  </data>
+  <data name="Material_CordycepGland" xml:space="preserve">
+    <value>蟲草腺</value>
+  </data>
+  <data name="Material_SoulSliver" xml:space="preserve">
+    <value>魄銀</value>
+  </data>
+  <data name="Material_TwilightDactylus" xml:space="preserve">
+    <value>暮光觸手</value>
+  </data>
+  <data name="Material_FaithSeed" xml:space="preserve">
+    <value>信念種子</value>
+  </data>
+  <data name="Material_HeartSeed" xml:space="preserve">
+    <value>心靈種子</value>
+  </data>
+  <data name="Material_ScrollOfBinding" xml:space="preserve">
+    <value>連結卷軸</value>
+  </data>
+  <data name="Material_ConfluxPrism" xml:space="preserve">
+    <value>共軛稜晶</value>
+  </data>
+  <data name="Material_CipherRod" xml:space="preserve">
+    <value>密碼棒</value>
+  </data>
+  <data name="Material_AcidicJawbone" xml:space="preserve">
+    <value>強酸頜骨</value>
+  </data>
+  <data name="Material_EidolonShard" xml:space="preserve">
+    <value>幻象碎片</value>
+  </data>
+  <data name="Material_SpicedBile" xml:space="preserve">
+    <value>勁爆膽囊</value>
+  </data>
+  <data name="Material_VoidCinder" xml:space="preserve">
+    <value>虛空灰燼</value>
+  </data>
+  <data name="Material_CrackedShell" xml:space="preserve">
+    <value>破碎甲殼</value>
+  </data>
+  <data name="Material_MutatedGrowth" xml:space="preserve">
+    <value>變異生長</value>
+  </data>
+  <data name="Material_SeekerResidue" xml:space="preserve">
+    <value>追尋者遺留物</value>
+  </data>
+  <data name="Material_SentrysOldIris" xml:space="preserve">
+    <value>哨兵的舊光圈</value>
+  </data>
+  <data name="Material_EscalationCircuit" xml:space="preserve">
+    <value>升級電路</value>
+  </data>
+  <data name="Material_IonicCrystal" xml:space="preserve">
+    <value>離子水晶</value>
+  </data>
+  <data name="Material_StasisCore" xml:space="preserve">
+    <value>靜滯核心</value>
+  </data>
+  <data name="Material_ForgottenMemory" xml:space="preserve">
+    <value>失落記憶</value>
+  </data>
+  <data name="Material_DreadCore" xml:space="preserve">
+    <value>恐懼核心</value>
+  </data>
+  <data name="Material_NecrocyteStrand" xml:space="preserve">
+    <value>壞死細胞鏈</value>
+  </data>
+  <data name="Material_DecrepitRune" xml:space="preserve">
+    <value>衰朽符文</value>
+  </data>
+  <data name="Material_ForgeEmber" xml:space="preserve">
+    <value>鍛爐余燼</value>
+  </data>
+  <data name="Material_PallidLodestone" xml:space="preserve">
+    <value>蒼白磁石</value>
+  </data>
+  <data name="Material_CeramicFlask" xml:space="preserve">
+    <value>陶瓷瓶</value>
+  </data>
+  <data name="Material_RegurgitatedSpinySac" xml:space="preserve">
+    <value>反芻刺囊</value>
+  </data>
+  <data name="Material_BlossomingCore" xml:space="preserve">
+    <value>綻放核心</value>
+  </data>
+  <data name="Material_EyeOfLydusa" xml:space="preserve">
+    <value>莉杜莎之眼</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Alchemist" xml:space="preserve">
+    <value>神秘之石</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Archon" xml:space="preserve">
+    <value>奇怪的箱子</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Challenger" xml:space="preserve">
+    <value>舊金屬工具</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Engineer" xml:space="preserve">
+    <value>外星裝置</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Explorer" xml:space="preserve">
+    <value>破損羅盤</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Gunslinger" xml:space="preserve">
+    <value>破舊彈膛</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Handler" xml:space="preserve">
+    <value>古老哨子</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Hunter" xml:space="preserve">
+    <value>銹蝕獎章</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Invader" xml:space="preserve">
+    <value>木刀</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Medic" xml:space="preserve">
+    <value>醫務兵飾針</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Summoner" xml:space="preserve">
+    <value>褪色秘典</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Ritualist" xml:space="preserve">
+    <value>破爛的人偶</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Invoker" xml:space="preserve">
+    <value>老舊長笛</value>
+  </data>
+  <data name="Item_HiddenContainer_Material_Engram_Warden" xml:space="preserve">
+    <value>風化機械</value>
+  </data>
+  <data name="Material_ShinningEssenceEcho" xml:space="preserve">
+    <value>閃耀精華回聲</value>
+  </data>
+  <data name="Material_HexWreath" xml:space="preserve">
+    <value>巫術花環</value>
+  </data>
+  <data name="Material_WretchedSkull" xml:space="preserve">
+    <value>可憐顱骨</value>
+  </data>
+  <data name="Material_CrematedSoulAsh" xml:space="preserve">
+    <value>靈魂灰燼</value>
+  </data>
+  <data name="Material_OccultVessel" xml:space="preserve">
+    <value>神秘容器</value>
+  </data>
+  <data name="Material_AgonySpike" xml:space="preserve">
+    <value>苦痛尖刺</value>
+  </data>
+  <data name="Material_TormentorsPommel" xml:space="preserve">
+    <value>折磨者的劍首</value>
+  </data>
+  <data name="Material_ReplicationPod" xml:space="preserve">
+    <value>復制艙</value>
+  </data>
+  <data name="Material_VoidlightCore" xml:space="preserve">
+    <value>虛空之光核心</value>
+  </data>
+  <data name="Material_BlackMetalBars" xml:space="preserve">
+    <value>黑金屬棒</value>
+  </data>
+  <data name="Material_IonRod" xml:space="preserve">
+    <value>離子棒</value>
+  </data>
+  <data name="Material_BlackMass" xml:space="preserve">
+    <value>黑團</value>
+  </data>
+  <data name="Material_EternityChamber" xml:space="preserve">
+    <value>永恒密室</value>
+  </data>
+  <data name="Quest_Boss_Faelin" xml:space="preserve">
+    <value>翡凌</value>
+  </data>
+  <data name="Quest_Boss_Faerlin" xml:space="preserve">
+    <value>翡麟</value>
+  </data>
+  <data name="Quest_Boss_ManyFaces" xml:space="preserve">
+    <value>腐化者</value>
+  </data>
+  <data name="Quest_Boss_NerudGuardian" xml:space="preserve">
+    <value>沙哈拉：涅魯德的守護者</value>
+  </data>
+  <data name="Quest_Boss_NightWeaver" xml:space="preserve">
+    <value>織夜者</value>
+  </data>
+  <data name="Quest_Boss_OneTrueKing" xml:space="preserve">
+    <value>獨一真皇</value>
+  </data>
+  <data name="Quest_Boss_Ravager" xml:space="preserve">
+    <value>腐敗劫掠者</value>
+  </data>
+  <data name="Quest_Boss_TalRatha" xml:space="preserve">
+    <value>達拉裟</value>
+  </data>
+  <data name="Quest_Boss_Lydusa" xml:space="preserve">
+    <value>莉杜莎</value>
+  </data>
+  <data name="Quest_Boss_AlepsisTaura" xml:space="preserve">
+    <value>阿萊普西斯-陶拉</value>
+  </data>
+  <data name="Quest_Injectable_Oink" xml:space="preserve">
+    <value>胃</value>
+  </data>
+  <data name="Quest_Injectable_GoldenHall_AboveBelow" xml:space="preserve">
+    <value>行刑者</value>
+  </data>
+  <data name="Quest_Injectable_BurningCity_DLC" xml:space="preserve">
+    <value>飄渺莊園</value>
+  </data>
+  <data name="Quest_Miniboss_Abomination" xml:space="preserve">
+    <value>丑惡</value>
+  </data>
+  <data name="Quest_Miniboss_BloatKing" xml:space="preserve">
+    <value>腐脹之王</value>
+  </data>
+  <data name="Quest_Miniboss_CustodianEye" xml:space="preserve">
+    <value>保管人之眼</value>
+  </data>
+  <data name="Quest_Miniboss_DranGrenadier" xml:space="preserve">
+    <value>不燃者格溫迪爾</value>
+  </data>
+  <data name="Quest_Miniboss_FaeArchon" xml:space="preserve">
+    <value>執政官杜萊恩</value>
+  </data>
+  <data name="Quest_Miniboss_Hatchery" xml:space="preserve">
+    <value>始祖</value>
+  </data>
+  <data name="Quest_Miniboss_MotherMind" xml:space="preserve">
+    <value>靈智之母</value>
+  </data>
+  <data name="Quest_Miniboss_Phantom" xml:space="preserve">
+    <value>星語者</value>
+  </data>
+  <data name="Quest_Miniboss_RedPrince" xml:space="preserve">
+    <value>紅王子</value>
+  </data>
+  <data name="Quest_Miniboss_RootCultist" xml:space="preserve">
+    <value>軍團</value>
+  </data>
+  <data name="Quest_Miniboss_RootHorror" xml:space="preserve">
+    <value>卡尤拉之影</value>
+  </data>
+  <data name="Quest_Miniboss_Shrewd" xml:space="preserve">
+    <value>精明</value>
+  </data>
+  <data name="Quest_Miniboss_Witch" xml:space="preserve">
+    <value>失落女巫</value>
+  </data>
+  <data name="Quest_Miniboss_Impaler" xml:space="preserve">
+    <value>布魯恩，國王之刃</value>
+  </data>
+  <data name="Quest_Miniboss_Kiln" xml:space="preserve">
+    <value>灰燼熔爐</value>
+  </data>
+  <data name="Quest_Miniboss_ShiftingSoldier" xml:space="preserve">
+    <value>石頭守衛</value>
+  </data>
+  <data name="Quest_Miniboss_Harvester" xml:space="preserve">
+    <value>涅魯德收割者</value>
+  </data>
+  <data name="Quest_OverworldPOI_ClockTower" xml:space="preserve">
+    <value>萊馬克區</value>
+  </data>
+  <data name="Quest_OverworldPOI_DranOracle" xml:space="preserve">
+    <value>先知的庇護所</value>
+  </data>
+  <data name="Quest_OverworldPOI_Flautist" xml:space="preserve">
+    <value>根蔓中樞</value>
+  </data>
+  <data name="Quest_OverworldPOI_IronGiant" xml:space="preserve">
+    <value>泰坦領域</value>
+  </data>
+  <data name="OverworldPOI_KoaraKuri" xml:space="preserve">
+    <value>柯亞拉庫里巢穴</value>
+  </data>
+  <data name="Quest_OverworldPOI_Meidra" xml:space="preserve">
+    <value>梅德拉</value>
+  </data>
+  <data name="Quest_OverworldPOI_OilField" xml:space="preserve">
+    <value>開采中樞</value>
+  </data>
+  <data name="Quest_OverworldPOI_TheCustodian" xml:space="preserve">
+    <value>升天尖塔</value>
+  </data>
+  <data name="Quest_OverworldPOI_TheHunter" xml:space="preserve">
+    <value>布瑞拉的花園</value>
+  </data>
+  <data name="Consumable_DragonHeart" xml:space="preserve">
+    <value>龍心</value>
+  </data>
+  <data name="Consumable_BarkExtract" xml:space="preserve">
+    <value>樹皮萃取液</value>
+  </data>
+  <data name="Consumable_BottledShaedberry" xml:space="preserve">
+    <value>瓶裝剎邸莓</value>
+  </data>
+  <data name="Consumable_ChilledSteam" xml:space="preserve">
+    <value>冷凝蒸汽</value>
+  </data>
+  <data name="Consumable_DarkCider" xml:space="preserve">
+    <value>黑蘋果酒</value>
+  </data>
+  <data name="Consumable_DarkFluid" xml:space="preserve">
+    <value>黑色液體</value>
+  </data>
+  <data name="Consumable_EggDrink" xml:space="preserve">
+    <value>特調蛋飲</value>
+  </data>
+  <data name="Consumable_MeatShake" xml:space="preserve">
+    <value>血肉搖籃</value>
+  </data>
+  <data name="Consumable_MudToothsElixir" xml:space="preserve">
+    <value>泥牙的靈藥</value>
+  </data>
+  <data name="Consumable_MudToothsStew" xml:space="preserve">
+    <value>泥牙的湯</value>
+  </data>
+  <data name="Consumable_MudToothsTonic" xml:space="preserve">
+    <value>泥牙的湯藥</value>
+  </data>
+  <data name="Consumable_RootWater" xml:space="preserve">
+    <value>根蔓水</value>
+  </data>
+  <data name="Consumable_SacredLakewater" xml:space="preserve">
+    <value>神聖湖水</value>
+  </data>
+  <data name="Consumable_SanguineVapor" xml:space="preserve">
+    <value>血色蒸汽</value>
+  </data>
+  <data name="Consumable_StrongDrink" xml:space="preserve">
+    <value>蒸餾酒</value>
+  </data>
+  <data name="Consumable_TranquilityFont" xml:space="preserve">
+    <value>寧靜泉水</value>
+  </data>
+  <data name="Consumable_VerdantTea" xml:space="preserve">
+    <value>青茶</value>
+  </data>
+  <data name="Consumable_Xenoplasm" xml:space="preserve">
+    <value>異生質</value>
+  </data>
+  <data name="Consumable_MudtoothsSnakeOil" xml:space="preserve">
+    <value>泥牙的蛇油</value>
+  </data>
+  <data name="Consumable_NumbingAgent" xml:space="preserve">
+    <value>麻痹劑</value>
+  </data>
+  <data name="Consumable_AllSeeingEye" xml:space="preserve">
+    <value>全知之眼</value>
+  </data>
+  <data name="Consumable_Spice" xml:space="preserve">
+    <value>靈燼</value>
+  </data>
+  <data name="Consumable_AmmoBox" xml:space="preserve">
+    <value>彈藥箱</value>
+  </data>
+  <data name="Consumable_Antidote" xml:space="preserve">
+    <value>解毒劑</value>
+  </data>
+  <data name="Consumable_Bandage" xml:space="preserve">
+    <value>繃帶</value>
+  </data>
+  <data name="Consumable_BindingOrb" xml:space="preserve">
+    <value>綁定之球</value>
+  </data>
+  <data name="Consumable_BlackTar" xml:space="preserve">
+    <value>黑焦油</value>
+  </data>
+  <data name="Consumable_BloodRoot" xml:space="preserve">
+    <value>血根</value>
+  </data>
+  <data name="Consumable_Brightstone" xml:space="preserve">
+    <value>光亮之石</value>
+  </data>
+  <data name="Consumable_ConfidenceBooster" xml:space="preserve">
+    <value>信心助推</value>
+  </data>
+  <data name="Consumable_DriedFruit" xml:space="preserve">
+    <value>干果</value>
+  </data>
+  <data name="Consumable_EtherealOrb" xml:space="preserve">
+    <value>飄渺之珠</value>
+  </data>
+  <data name="Consumable_FaerieNeedle" xml:space="preserve">
+    <value>翡針</value>
+  </data>
+  <data name="Consumable_GulSerum" xml:space="preserve">
+    <value>古爾人血清</value>
+  </data>
+  <data name="Consumable_KoaraPellet" xml:space="preserve">
+    <value>柯亞拉丸</value>
+  </data>
+  <data name="Consumable_MudRub" xml:space="preserve">
+    <value>泥巴涂抹劑</value>
+  </data>
+  <data name="Consumable_MysteryJerky" xml:space="preserve">
+    <value>神秘肉干</value>
+  </data>
+  <data name="Consumable_OilskinBalm" xml:space="preserve">
+    <value>隔離膏</value>
+  </data>
+  <data name="Consumable_PipeBomb" xml:space="preserve">
+    <value>管式炸彈</value>
+  </data>
+  <data name="Consumable_PoisonedSpiceCapsule" xml:space="preserve">
+    <value>毒性靈燼膠囊</value>
+  </data>
+  <data name="Consumable_ProcessedKoara" xml:space="preserve">
+    <value>處理過的柯亞拉</value>
+  </data>
+  <data name="Consumable_PurifiedSalve" xml:space="preserve">
+    <value>凈化藥膏</value>
+  </data>
+  <data name="Consumable_RocketFuel" xml:space="preserve">
+    <value>火箭燃料</value>
+  </data>
+  <data name="Consumable_SweetLeaf" xml:space="preserve">
+    <value>甜葉</value>
+  </data>
+  <data name="Consumable_TimewornUnguent" xml:space="preserve">
+    <value>陳年藥膏</value>
+  </data>
+  <data name="Consumable_ThaenFruit_Mature" xml:space="preserve">
+    <value>成熟塞恩果</value>
+  </data>
+  <data name="Consumable_ThaenFruit_Elder" xml:space="preserve">
+    <value>陳化塞恩果</value>
+  </data>
+  <data name="Consumable_ThaenFruit_Celestial" xml:space="preserve">
+    <value>神聖塞恩果</value>
+  </data>
+  <data name="Consumable_LiquidEscape" xml:space="preserve">
+    <value>水遁</value>
+  </data>
+  <data name="Consumable_OrbOfUndoing" xml:space="preserve">
+    <value>毀滅之珠</value>
+  </data>
+  <data name="Consumable_LightExtract" xml:space="preserve">
+    <value>輕靈精華</value>
+  </data>
+  <data name="Consumable_DransDream" xml:space="preserve">
+    <value>德蘭人的夢</value>
+  </data>
+  <data name="Consumable_NimuesDream" xml:space="preserve">
+    <value>尼姆埃的夢</value>
+  </data>
+  <data name="Consumable_HuntersDream" xml:space="preserve">
+    <value>女獵人的夢</value>
+  </data>
+  <data name="Consumable_RootWalkerDream" xml:space="preserve">
+    <value>行者的夢</value>
+  </data>
+  <data name="PrismOfGreed" xml:space="preserve">
+    <value>貪婪之稜晶</value>
+  </data>
+  <data name="PrismOfHatred" xml:space="preserve">
+    <value>憎恨之稜晶</value>
+  </data>
+  <data name="PrismOfJealousy" xml:space="preserve">
+    <value>嫉妒之稜晶</value>
+  </data>
+  <data name="PrismOfLethargy" xml:space="preserve">
+    <value>怠惰之稜晶</value>
+  </data>
+  <data name="PrismOfPassion" xml:space="preserve">
+    <value>色欲之稜晶</value>
+  </data>
+  <data name="PrismOfPride" xml:space="preserve">
+    <value>傲慢之稜晶</value>
+  </data>
+  <data name="PrismOfVoracity" xml:space="preserve">
+    <value>暴食之稜晶</value>
+  </data>
+  <data name="Labyrinth" xml:space="preserve">
+    <value>迷宮</value>
+  </data>
+  <data name="Losomn" xml:space="preserve">
+    <value>洛斯曼</value>
+  </data>
+  <data name="N&apos;Erud" xml:space="preserve">
+    <value>涅魯德</value>
+  </data>
+  <data name="Root Earth" xml:space="preserve">
+    <value>根蔓地球</value>
+  </data>
+  <data name="Ward 13" xml:space="preserve">
+    <value>13 號實驗區</value>
+  </data>
+  <data name="Yaesha" xml:space="preserve">
+    <value>耶莎</value>
+  </data>
+  <data name="The Labyrinth" xml:space="preserve">
+    <value>迷宮</value>
+  </data>
+  <data name="Ashen Wasteland" xml:space="preserve">
+    <value>灰燼荒原</value>
+  </data>
+  <data name="Blackened Citadel" xml:space="preserve">
+    <value>污黑城塞</value>
+  </data>
+  <data name="Corrupted Harbor" xml:space="preserve">
+    <value>腐敗港灣</value>
+  </data>
+  <data name="Beatific Gallery" xml:space="preserve">
+    <value>幸福畫廊</value>
+  </data>
+  <data name="Beatific Palace" xml:space="preserve">
+    <value>喜樂宮</value>
+  </data>
+  <data name="Brocwithe Quarter" xml:space="preserve">
+    <value>布羅克韋瑟區</value>
+  </data>
+  <data name="Butcher&apos;s Quarter" xml:space="preserve">
+    <value>屠夫區</value>
+  </data>
+  <data name="Chamber of the Faithless" xml:space="preserve">
+    <value>無信者之間</value>
+  </data>
+  <data name="Cotton&apos;s Kiln" xml:space="preserve">
+    <value>棉花爐</value>
+  </data>
+  <data name="Council Chamber" xml:space="preserve">
+    <value>議會廳</value>
+  </data>
+  <data name="Council Tribunal" xml:space="preserve">
+    <value>議會法庭</value>
+  </data>
+  <data name="Derelict Lighthouse" xml:space="preserve">
+    <value>秘密燈塔</value>
+  </data>
+  <data name="Forlorn Coast" xml:space="preserve">
+    <value>凄涼海岸</value>
+  </data>
+  <data name="Forsaken Quarter" xml:space="preserve">
+    <value>廢棄區</value>
+  </data>
+  <data name="Gilded Chambers" xml:space="preserve">
+    <value>鎏金大廳</value>
+  </data>
+  <data name="Glistering Cloister" xml:space="preserve">
+    <value>閃光回廊</value>
+  </data>
+  <data name="Harvester&apos;s Reach" xml:space="preserve">
+    <value>收獲者領域</value>
+  </data>
+  <data name="Ironborough" xml:space="preserve">
+    <value>鐵區</value>
+  </data>
+  <data name="Lemark District" xml:space="preserve">
+    <value>萊馬克區</value>
+  </data>
+  <data name="Malefic Gallery" xml:space="preserve">
+    <value>邪惡畫廊</value>
+  </data>
+  <data name="Malefic Palace" xml:space="preserve">
+    <value>邪惡宮殿</value>
+  </data>
+  <data name="Morrow Parish" xml:space="preserve">
+    <value>莫洛堂區</value>
+  </data>
+  <data name="Nimue&apos;s Retreat" xml:space="preserve">
+    <value>尼姆埃的隱居所</value>
+  </data>
+  <data name="Palace of the One True King" xml:space="preserve">
+    <value>獨一真皇的宮殿</value>
+  </data>
+  <data name="Pathway of the Fallen" xml:space="preserve">
+    <value>墮落之路</value>
+  </data>
+  <data name="Postulant&apos;s Parlor" xml:space="preserve">
+    <value>發愿者的客廳</value>
+  </data>
+  <data name="Shattered Gallery" xml:space="preserve">
+    <value>破碎畫廊</value>
+  </data>
+  <data name="Sunken Haunt" xml:space="preserve">
+    <value>失落之地</value>
+  </data>
+  <data name="The Forgotten Commune" xml:space="preserve">
+    <value>被遺忘的公社</value>
+  </data>
+  <data name="The Great Hall" xml:space="preserve">
+    <value>大廳</value>
+  </data>
+  <data name="The Great Sewers" xml:space="preserve">
+    <value>巨型下水道</value>
+  </data>
+  <data name="The Tormented Asylum" xml:space="preserve">
+    <value>苦痛精神病院</value>
+  </data>
+  <data name="Tiller&apos;s Rest" xml:space="preserve">
+    <value>耕作者之息</value>
+  </data>
+  <data name="Walk of Remembrance" xml:space="preserve">
+    <value>紀念之行</value>
+  </data>
+  <data name="Abyssal Rift" xml:space="preserve">
+    <value>深淵裂隙</value>
+  </data>
+  <data name="Agronomy Sector" xml:space="preserve">
+    <value>農藝區</value>
+  </data>
+  <data name="Alepsis-Taura" xml:space="preserve">
+    <value>阿萊普西斯-陶拉</value>
+  </data>
+  <data name="Astropath&apos;s Respite" xml:space="preserve">
+    <value>星語者的喘息</value>
+  </data>
+  <data name="Athenaeum Wek" xml:space="preserve">
+    <value>威克聖院閱覽室</value>
+  </data>
+  <data name="Detritus Foundry" xml:space="preserve">
+    <value>碎料鑄造廠</value>
+  </data>
+  <data name="Dormant N&apos;Erudian Facility" xml:space="preserve">
+    <value>沉睡的涅魯德設施</value>
+  </data>
+  <data name="Forgotten Prison" xml:space="preserve">
+    <value>遺忘監牢</value>
+  </data>
+  <data name="Logistics Bridge" xml:space="preserve">
+    <value>物流橋</value>
+  </data>
+  <data name="Mucid Terrarium" xml:space="preserve">
+    <value>黏液容器</value>
+  </data>
+  <data name="Phantom Wasteland" xml:space="preserve">
+    <value>幽影荒原</value>
+  </data>
+  <data name="Seeker&apos;s Rest" xml:space="preserve">
+    <value>追尋者的休憩</value>
+  </data>
+  <data name="Sentinel&apos;s Keep" xml:space="preserve">
+    <value>哨兵要塞</value>
+  </data>
+  <data name="Spectrum Nexus" xml:space="preserve">
+    <value>光譜中樞</value>
+  </data>
+  <data name="Stagnant Manufactory" xml:space="preserve">
+    <value>停滯工廠</value>
+  </data>
+  <data name="Terminus Station" xml:space="preserve">
+    <value>終點站</value>
+  </data>
+  <data name="The Convergence" xml:space="preserve">
+    <value>融合</value>
+  </data>
+  <data name="The Dark Conduit" xml:space="preserve">
+    <value>黑暗之渠</value>
+  </data>
+  <data name="The Eon Vault" xml:space="preserve">
+    <value>萬古地下室</value>
+  </data>
+  <data name="The Hatchery" xml:space="preserve">
+    <value>孵化體</value>
+  </data>
+  <data name="The Putrid Domain" xml:space="preserve">
+    <value>腐爛領域</value>
+  </data>
+  <data name="Timeless Horizon" xml:space="preserve">
+    <value>永恒地平線</value>
+  </data>
+  <data name="Tower of the Unseen" xml:space="preserve">
+    <value>不可見之塔</value>
+  </data>
+  <data name="Vault of the Formless" xml:space="preserve">
+    <value>無形者的地下室</value>
+  </data>
+  <data name="Void Vessel Facility" xml:space="preserve">
+    <value>虛空軀殼建筑</value>
+  </data>
+  <data name="Withered Necropolis" xml:space="preserve">
+    <value>枯萎墓地</value>
+  </data>
+  <data name="Ancient Canopy" xml:space="preserve">
+    <value>古代穹頂</value>
+  </data>
+  <data name="Ancient Canopy/Luminous Vale" xml:space="preserve">
+    <value>古代穹頂/輝光谷地</value>
+  </data>
+  <data name="Cathedral of Omens" xml:space="preserve">
+    <value>預兆教堂</value>
+  </data>
+  <data name="Deserted Atelier" xml:space="preserve">
+    <value>荒廢的工作室</value>
+  </data>
+  <data name="Earthen Coliseum" xml:space="preserve">
+    <value>土石競技場</value>
+  </data>
+  <data name="Endaira&apos;s End" xml:space="preserve">
+    <value>恩達瑞亞的終結</value>
+  </data>
+  <data name="Faithless Thicket" xml:space="preserve">
+    <value>無信仰的叢林</value>
+  </data>
+  <data name="Forgotten Field" xml:space="preserve">
+    <value>忘卻之地</value>
+  </data>
+  <data name="Goddess&apos;s Rest" xml:space="preserve">
+    <value>女神之息</value>
+  </data>
+  <data name="Imperial Gardens" xml:space="preserve">
+    <value>皇家花園</value>
+  </data>
+  <data name="Infested Abyss" xml:space="preserve">
+    <value>危獸深淵</value>
+  </data>
+  <data name="Kaeula&apos;s Rest" xml:space="preserve">
+    <value>卡尤拉的休憩</value>
+  </data>
+  <data name="Luminous Vale" xml:space="preserve">
+    <value>輝光谷地</value>
+  </data>
+  <data name="Proving Grounds" xml:space="preserve">
+    <value>鶴立雞群</value>
+  </data>
+  <data name="Ravager&apos;s Lair" xml:space="preserve">
+    <value>劫掠者的巢穴</value>
+  </data>
+  <data name="The Bloodless Throne" xml:space="preserve">
+    <value>斷血王座</value>
+  </data>
+  <data name="The Chimney" xml:space="preserve">
+    <value>煙囪</value>
+  </data>
+  <data name="The Expanding Glade" xml:space="preserve">
+    <value>擴張的林地</value>
+  </data>
+  <data name="The Far Woods" xml:space="preserve">
+    <value>遙遠森林</value>
+  </data>
+  <data name="The Forbidden Grove" xml:space="preserve">
+    <value>禁林</value>
+  </data>
+  <data name="The Great Bole" xml:space="preserve">
+    <value>巨樹</value>
+  </data>
+  <data name="The Lament" xml:space="preserve">
+    <value>挽歌</value>
+  </data>
+  <data name="The Nameless Nest" xml:space="preserve">
+    <value>無名巢穴</value>
+  </data>
+  <data name="The Red Throne" xml:space="preserve">
+    <value>紅王座</value>
+  </data>
+  <data name="The Twisted Chantry" xml:space="preserve">
+    <value>扭曲教堂</value>
+  </data>
+  <data name="The Widow&apos;s Court" xml:space="preserve">
+    <value>紅寡婦王庭</value>
+  </data>
+  <data name="The Withering Weald" xml:space="preserve">
+    <value>枯萎原野</value>
+  </data>
+  <data name="Bedel" xml:space="preserve">
+    <value>沃恩特貝德</value>
+  </data>
+  <data name="Blood Moon Altar" xml:space="preserve">
+    <value>血月祭壇</value>
+  </data>
+  <data name="Brabus" xml:space="preserve">
+    <value>布拉巴斯</value>
+  </data>
+  <data name="Cass" xml:space="preserve">
+    <value>卡莎</value>
+  </data>
+  <data name="Drzyr Replicator" xml:space="preserve">
+    <value>澤厄爾復制品</value>
+  </data>
+  <data name="Dwell" xml:space="preserve">
+    <value>叨沃</value>
+  </data>
+  <data name="Leywise" xml:space="preserve">
+    <value>雷維斯</value>
+  </data>
+  <data name="McCabe" xml:space="preserve">
+    <value>艾娃·麥凱布</value>
+  </data>
+  <data name="Mudtooth" xml:space="preserve">
+    <value>泥牙</value>
+  </data>
+  <data name="Nimue" xml:space="preserve">
+    <value>尼姆埃</value>
+  </data>
+  <data name="Norah" xml:space="preserve">
+    <value>諾拉</value>
+  </data>
+  <data name="Reggie" xml:space="preserve">
+    <value>雷吉</value>
+  </data>
+  <data name="Spark" xml:space="preserve">
+    <value>史派克</value>
+  </data>
+  <data name="Walt" xml:space="preserve">
+    <value>沃爾特</value>
+  </data>
+  <data name="Whispers" xml:space="preserve">
+    <value>低語</value>
+  </data>
+</root>
