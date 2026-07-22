@@ -717,4 +717,16 @@
   <data name="Material_PrismaticStone_3" xml:space="preserve">
     <value>稜晶石（紅色）</value>
   </data>
+  <data name="Settings_ItemColors" xml:space="preserve">
+    <value>物品顏色</value>
+  </data>
+  <data name="Settings_ItemColorOriginal" xml:space="preserve">
+    <value>原版顏色</value>
+  </data>
+  <data name="Settings_ItemColorPreset" xml:space="preserve">
+    <value>預設樣式</value>
+  </data>
+  <data name="Settings_ItemColorCustom" xml:space="preserve">
+    <value>自訂顏色</value>
+  </data>
 </root>

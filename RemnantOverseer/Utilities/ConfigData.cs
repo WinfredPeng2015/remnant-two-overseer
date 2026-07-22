@@ -1,3 +1,6 @@
+using RemnantOverseer.Models;
+using System.Collections.Generic;
+
 namespace RemnantOverseer.Utilities;
 
 public class ConfigData
@@ -11,4 +14,5 @@ public class ConfigData
     public bool? HideTips { get; set; }
     public bool? HideToolkitLinks { get; set; }
     public string? CultureName { get; set; }
+    public Dictionary<string, ItemColorPreference>? ItemColors { get; set; }
 }

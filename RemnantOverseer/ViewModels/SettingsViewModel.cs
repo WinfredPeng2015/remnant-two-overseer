@@ -12,12 +12,17 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using System.Threading;
+using RemnantOverseer.Models.Enums;
 
 namespace RemnantOverseer.ViewModels;
 public partial class SettingsViewModel : ViewModelBase
 {
     private readonly SaveDataService _saveDataService;
     private readonly SettingsService _settingsService;
+    private readonly ItemColorService _itemColorService;
+    private int _colorSyncVersion;
 
     [ObservableProperty]
     private string? _filePath;
@@ -35,17 +40,20 @@ public partial class SettingsViewModel : ViewModelBase
     private CultureOption? _selectedCulture;
 
     public IReadOnlyList<CultureOption> SupportedCultures { get; } = LocalizationService.SupportedCultures;
+    public ObservableCollection<ItemColorOptionViewModel> ItemColors { get; } = new();
 
-    public SettingsViewModel(SettingsService settingsService, SaveDataService saveDataService)
+    public SettingsViewModel(SettingsService settingsService, SaveDataService saveDataService, ItemColorService itemColorService)
     {
         _settingsService = settingsService;
         _saveDataService = saveDataService;
+        _itemColorService = itemColorService;
         var settings = _settingsService.Get();
         _filePath = settings.SaveFilePath;
         _showTips = !settings.HideTips;
         _showToolkitLinks = !settings.HideToolkitLinks;
         _enableVersionCheck = !settings.DisableVersionCheck;
         _selectedCulture = SupportedCultures.FirstOrDefault(c => c.CultureName == settings.CultureName) ?? SupportedCultures[0];
+        LoadItemColors();
 
         if (Design.IsDesignMode)
         {
@@ -174,8 +182,56 @@ public partial class SettingsViewModel : ViewModelBase
 
         settings.CultureName = value.CultureName;
         LocalizationService.ApplyCulture(value.CultureName);
+        LoadItemColors();
         WeakReferenceMessenger.Default.Send(new CultureChangedMessage());
         _ = Task.Run(_settingsService.Sync);
+    }
+
+    private void LoadItemColors()
+    {
+        ItemColors.Clear();
+        var settings = _settingsService.Get();
+
+        foreach (var type in Enum.GetValues<ItemTypes>())
+        {
+            if (type == ItemTypes.Unknown)
+            {
+                continue;
+            }
+
+            var preference = settings.GetItemColorPreference(type);
+            var presetColor = _itemColorService.GetPresetColor(type);
+            var customColor = ItemColorService.TryParseColor(preference.CustomColor, out var parsedColor)
+                ? parsedColor
+                : presetColor;
+
+            ItemColors.Add(new ItemColorOptionViewModel(
+                type,
+                LocalizationService.ItemTypeName(type),
+                preference.Mode,
+                _itemColorService.GetOriginalColor(),
+                presetColor,
+                customColor,
+                OnItemColorChanged));
+        }
+    }
+
+    private void OnItemColorChanged(ItemColorOptionViewModel option)
+    {
+        var preference = _settingsService.Get().GetItemColorPreference(option.Type);
+        preference.Mode = option.Mode;
+        preference.CustomColor = ItemColorService.ToHex(option.CustomColor);
+        _itemColorService.Apply(option.Type);
+
+        var syncVersion = Interlocked.Increment(ref _colorSyncVersion);
+        _ = Task.Run(async () =>
+        {
+            await Task.Delay(250);
+            if (syncVersion == Volatile.Read(ref _colorSyncVersion))
+            {
+                await _settingsService.Sync();
+            }
+        });
     }
 
     public static FilePickerFileType Saves => new(LocalizationService.Get("FilePicker_SaveFileTypeName"))

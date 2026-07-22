@@ -14,12 +14,4 @@
   <SolidColorBrush x:Key="BaseAccentLowBrush" Color="{StaticResource BaseAccentColor}" Opacity="0.4" />
   <SolidColorBrush x:Key="BaseAccentTransparentBrush" Color="{StaticResource BaseAccentColor}" Opacity="0" />
 
-  <SolidColorBrush x:Key="ItemAccessoryBrush" Color="{StaticResource ItemAccessoryColor}" />
-  <SolidColorBrush x:Key="ItemEngramBrush" Color="{StaticResource ItemEngramColor}" />
-  <SolidColorBrush x:Key="ItemMutatorBrush" Color="{StaticResource ItemMutatorColor}" />
-  <SolidColorBrush x:Key="ItemQuestBrush" Color="{StaticResource ItemQuestColor}" />
-  <SolidColorBrush x:Key="ItemRelicBrush" Color="{StaticResource ItemRelicColor}" />
-  <SolidColorBrush x:Key="ItemWeaponBrush" Color="{StaticResource ItemWeaponColor}" />
-  <SolidColorBrush x:Key="ItemTraitBrush" Color="{StaticResource ItemTraitColor}" />
-
 </ResourceDictionary>

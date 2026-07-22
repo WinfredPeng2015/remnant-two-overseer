@@ -1,5 +1,8 @@
 ﻿using RemnantOverseer.Utilities;
 
+using RemnantOverseer.Models.Enums;
+using System.Collections.Generic;
+
 namespace RemnantOverseer.Models;
 
 // contains all the default settings
@@ -61,5 +64,20 @@ public class Settings
     {
         get { return string.IsNullOrWhiteSpace(Config.CultureName) ? LocalizationConstants.DefaultCultureName : Config.CultureName; }
         set { Config.CultureName = string.IsNullOrWhiteSpace(value) ? LocalizationConstants.DefaultCultureName : value; }
+    }
+
+    public Dictionary<string, ItemColorPreference> ItemColors =>
+        Config.ItemColors ??= new Dictionary<string, ItemColorPreference>();
+
+    public ItemColorPreference GetItemColorPreference(ItemTypes type)
+    {
+        var key = type.ToString();
+        if (!ItemColors.TryGetValue(key, out var preference))
+        {
+            preference = new ItemColorPreference();
+            ItemColors[key] = preference;
+        }
+
+        return preference;
     }
 }

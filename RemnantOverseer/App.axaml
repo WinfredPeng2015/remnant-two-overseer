@@ -42,5 +42,6 @@
           </FluentTheme.Palettes>
         </FluentTheme>
       <StyleInclude Source="/Styles/AppDefaultStyles.axaml" />
+      <StyleInclude Source="avares://Avalonia.Controls.ColorPicker/Themes/Fluent/Fluent.xaml" />
     </Application.Styles>
 </Application>

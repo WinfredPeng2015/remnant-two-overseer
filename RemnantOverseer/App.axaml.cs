@@ -38,6 +38,7 @@ public partial class App : Application
             {
                 services
                     .AddSingleton<SettingsService>()
+                    .AddSingleton<ItemColorService>()
                     .AddSingleton<SaveDataService>()
                     .AddTransient<MainWindowViewModel>()
                     .AddSingleton<CharacterSelectViewModel>()

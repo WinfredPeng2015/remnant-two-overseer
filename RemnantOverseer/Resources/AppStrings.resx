@@ -717,4 +717,16 @@ Restart the game if that happens</value>
   <data name="Material_PrismaticStone_3" xml:space="preserve">
     <value>Prismatic Stone (red)</value>
   </data>
+  <data name="Settings_ItemColors" xml:space="preserve">
+    <value>Item colors</value>
+  </data>
+  <data name="Settings_ItemColorOriginal" xml:space="preserve">
+    <value>Original color</value>
+  </data>
+  <data name="Settings_ItemColorPreset" xml:space="preserve">
+    <value>Preset color</value>
+  </data>
+  <data name="Settings_ItemColorCustom" xml:space="preserve">
+    <value>Custom color</value>
+  </data>
 </root>

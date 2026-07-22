@@ -54,6 +54,45 @@
 
           <Separator Background="{StaticResource OuterBorderInactiveColor}" Height="2" Margin="0 15 0 0"/>
 
+          <!-- Item colors -->
+          <Grid RowDefinitions="Auto, Auto" Margin="0 20 0 0">
+            <TextBlock Grid.Row="0" Text="{loc:Loc Settings_ItemColors}" FontWeight="DemiBold" FontSize="16" Margin="5 5 5 10"/>
+            <ItemsControl Grid.Row="1" ItemsSource="{Binding ItemColors}" Margin="5 0 0 0">
+              <ItemsControl.ItemTemplate>
+                <DataTemplate x:DataType="vm:ItemColorOptionViewModel">
+                  <Grid ColumnDefinitions="180, 120, Auto, 105" MinHeight="38">
+                    <TextBlock Grid.Column="0" Text="{Binding DisplayName}" VerticalAlignment="Center"/>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsOriginal, Mode=TwoWay}"
+                                    ToolTip.Tip="{loc:Loc Settings_ItemColorOriginal}">
+                        <Border Background="{Binding OriginalBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
+                                BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
+                      </ToggleButton>
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsPreset, Mode=TwoWay}"
+                                    ToolTip.Tip="{loc:Loc Settings_ItemColorPreset}">
+                        <Border Background="{Binding PresetBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
+                                BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
+                      </ToggleButton>
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsCustom, Mode=TwoWay}"
+                                    ToolTip.Tip="{loc:Loc Settings_ItemColorCustom}">
+                        <Border Background="{Binding CustomBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
+                                BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
+                      </ToggleButton>
+                    </StackPanel>
+
+                    <ColorPicker Grid.Column="2" Color="{Binding CustomColor, Mode=TwoWay}" IsAlphaEnabled="False" IsVisible="{Binding IsCustom}"
+                                 Width="42" Height="30" Margin="0 0 8 0" VerticalAlignment="Center"/>
+                    <TextBox Grid.Column="3" Text="{Binding CustomHex, Mode=TwoWay}" IsVisible="{Binding IsCustom}"
+                             Width="96" MaxLength="7" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                  </Grid>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+          </Grid>
+
+          <Separator Background="{StaticResource OuterBorderInactiveColor}" Height="2" Margin="0 15 0 0"/>
+
           <!-- Logging -->
           <Grid RowDefinitions="Auto, Auto" Margin="0 20 0 0">
             <TextBlock Grid.Row="0" Text="{loc:Loc Settings_LoggingAndDebug}" FontWeight="DemiBold" FontSize="16" Margin="5 5 5 10"/>
