@@ -1,12 +1,13 @@
 using Avalonia.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using RemnantOverseer.Models.Enums;
 using RemnantOverseer.Services;
 using System;
 
 namespace RemnantOverseer.ViewModels;
 
-public sealed class ItemColorOptionViewModel : ObservableObject
+public sealed partial class ItemColorOptionViewModel : ObservableObject
 {
     private readonly Action<ItemColorOptionViewModel> _changed;
     private ItemColorMode _mode;
@@ -56,23 +57,11 @@ public sealed class ItemColorOptionViewModel : ObservableObject
         }
     }
 
-    public bool IsOriginal
-    {
-        get => Mode == ItemColorMode.Original;
-        set => SelectMode(value, ItemColorMode.Original, nameof(IsOriginal));
-    }
+    public bool IsOriginal => Mode == ItemColorMode.Original;
 
-    public bool IsPreset
-    {
-        get => Mode == ItemColorMode.Preset;
-        set => SelectMode(value, ItemColorMode.Preset, nameof(IsPreset));
-    }
+    public bool IsPreset => Mode == ItemColorMode.Preset;
 
-    public bool IsCustom
-    {
-        get => Mode == ItemColorMode.Custom;
-        set => SelectMode(value, ItemColorMode.Custom, nameof(IsCustom));
-    }
+    public bool IsCustom => Mode == ItemColorMode.Custom;
 
     public Color CustomColor
     {
@@ -108,15 +97,22 @@ public sealed class ItemColorOptionViewModel : ObservableObject
         }
     }
 
-    private void SelectMode(bool isSelected, ItemColorMode mode, string propertyName)
+    [RelayCommand]
+    private void SelectMode(string modeName)
     {
-        if (isSelected)
+        if (!Enum.TryParse<ItemColorMode>(modeName, out var mode))
+        {
+            return;
+        }
+
+        if (Mode != mode)
         {
             Mode = mode;
+            return;
         }
-        else if (Mode == mode)
-        {
-            OnPropertyChanged(propertyName);
-        }
+
+        OnPropertyChanged(nameof(IsOriginal));
+        OnPropertyChanged(nameof(IsPreset));
+        OnPropertyChanged(nameof(IsCustom));
     }
 }

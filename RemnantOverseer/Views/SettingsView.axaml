@@ -64,17 +64,20 @@
                     <TextBlock Grid.Column="0" Text="{Binding DisplayName}" VerticalAlignment="Center"/>
 
                     <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
-                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsOriginal, Mode=TwoWay}"
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsOriginal}"
+                                    Command="{Binding SelectModeCommand}" CommandParameter="Original"
                                     ToolTip.Tip="{loc:Loc Settings_ItemColorOriginal}">
                         <Border Background="{Binding OriginalBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
                       </ToggleButton>
-                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsPreset, Mode=TwoWay}"
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsPreset}"
+                                    Command="{Binding SelectModeCommand}" CommandParameter="Preset"
                                     ToolTip.Tip="{loc:Loc Settings_ItemColorPreset}">
                         <Border Background="{Binding PresetBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
                       </ToggleButton>
-                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsCustom, Mode=TwoWay}"
+                      <ToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsCustom}"
+                                    Command="{Binding SelectModeCommand}" CommandParameter="Custom"
                                     ToolTip.Tip="{loc:Loc Settings_ItemColorCustom}">
                         <Border Background="{Binding CustomBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
