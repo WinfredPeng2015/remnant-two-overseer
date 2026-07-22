@@ -4,12 +4,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:svc="using:RemnantOverseer.Services"
              xmlns:loc="using:RemnantOverseer.Services"
-             xmlns:controls="using:RemnantOverseer.Controls"
              xmlns:vm="using:RemnantOverseer.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="RemnantOverseer.Views.SettingsView"
              x:DataType="vm:SettingsViewModel"
              svc:FileDialogManager.Register="{Binding}">
+
+  <UserControl.Styles>
+    <Style Selector="Button.item-color-mode">
+      <Setter Property="Background" Value="Transparent"/>
+      <Setter Property="BorderBrush" Value="Transparent"/>
+      <Setter Property="BorderThickness" Value="1"/>
+    </Style>
+    <Style Selector="Button.item-color-mode.selected">
+      <Setter Property="Background" Value="#FF3B3B3B"/>
+      <Setter Property="BorderBrush" Value="#FF686868"/>
+    </Style>
+  </UserControl.Styles>
 
   <Grid RowDefinitions="*, Auto">
     <Border Grid.Row="0" Margin="20 20 5 20">
@@ -65,24 +76,27 @@
                     <TextBlock Grid.Column="0" Text="{Binding DisplayName}" VerticalAlignment="Center"/>
 
                     <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
-                      <controls:RequiredToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsOriginal}"
-                                    Command="{Binding SelectModeCommand}" CommandParameter="Original"
-                                    ToolTip.Tip="{loc:Loc Settings_ItemColorOriginal}">
+                      <Button Classes="item-color-mode" Classes.selected="{Binding IsOriginal}"
+                              Width="34" Height="30" Padding="7"
+                              Command="{Binding SelectModeCommand}" CommandParameter="Original"
+                              ToolTip.Tip="{loc:Loc Settings_ItemColorOriginal}">
                         <Border Background="{Binding OriginalBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
-                      </controls:RequiredToggleButton>
-                      <controls:RequiredToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsPreset}"
-                                    Command="{Binding SelectModeCommand}" CommandParameter="Preset"
-                                    ToolTip.Tip="{loc:Loc Settings_ItemColorPreset}">
+                      </Button>
+                      <Button Classes="item-color-mode" Classes.selected="{Binding IsPreset}"
+                              Width="34" Height="30" Padding="7"
+                              Command="{Binding SelectModeCommand}" CommandParameter="Preset"
+                              ToolTip.Tip="{loc:Loc Settings_ItemColorPreset}">
                         <Border Background="{Binding PresetBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
-                      </controls:RequiredToggleButton>
-                      <controls:RequiredToggleButton Width="34" Height="30" Padding="7" IsChecked="{Binding IsCustom}"
-                                    Command="{Binding SelectModeCommand}" CommandParameter="Custom"
-                                    ToolTip.Tip="{loc:Loc Settings_ItemColorCustom}">
+                      </Button>
+                      <Button Classes="item-color-mode" Classes.selected="{Binding IsCustom}"
+                              Width="34" Height="30" Padding="7"
+                              Command="{Binding SelectModeCommand}" CommandParameter="Custom"
+                              ToolTip.Tip="{loc:Loc Settings_ItemColorCustom}">
                         <Border Background="{Binding CustomBrush}" BorderBrush="{StaticResource OuterBorderBrush}"
                                 BorderThickness="1" CornerRadius="2" Width="16" Height="16"/>
-                      </controls:RequiredToggleButton>
+                      </Button>
                     </StackPanel>
 
                     <ColorPicker Grid.Column="2" Color="{Binding CustomColor, Mode=TwoWay}" IsAlphaEnabled="False" IsVisible="{Binding IsCustom}"
