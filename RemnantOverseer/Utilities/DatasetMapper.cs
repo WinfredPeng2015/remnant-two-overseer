@@ -206,7 +206,10 @@ internal class DatasetMapper
         itemModel.OriginType = originType;
         itemModel.CanonicalOriginName = lootGroup.Name ?? string.Empty;
         itemModel.OriginId = originType == OriginTypes.Vendor ? itemModel.CanonicalOriginName : lootGroup.EventDropReference ?? string.Empty;
-        itemModel.IsDuplicate = isDuplicate;
+        // Quest items are temporary world-state objects and are not tracked in the
+        // profile's permanent missing-items collection. Their visibility is governed
+        // by IsLooted instead of the duplicate-item filter.
+        itemModel.IsDuplicate = itemModel.Type != ItemTypes.QuestItem && isDuplicate;
 
         if(itemModel.Type == ItemTypes.Weapon)
         {

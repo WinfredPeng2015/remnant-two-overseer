@@ -7,9 +7,18 @@
   <SolidColorBrush x:Key="OuterBorderBrush" Color="{StaticResource OuterBorderColor}" />
   <SolidColorBrush x:Key="OuterBorderInactiveBrush" Color="{StaticResource OuterBorderInactiveColor}" />
   <SolidColorBrush x:Key="InnerBorderBrush" Color="{StaticResource InnerBorderColor}" />
+  <SolidColorBrush x:Key="BaseTextBrush" Color="{StaticResource BaseTextColor}" />
+  <SolidColorBrush x:Key="BaseTextDisabledBrush" Color="{StaticResource BaseTextDisabledColor}" />
   <SolidColorBrush x:Key="BaseAccentHighBrush" Color="{StaticResource BaseAccentColor}" Opacity="0.8" />
   <SolidColorBrush x:Key="BaseAccentMediumBrush" Color="{StaticResource BaseAccentColor}" Opacity="0.6" />
   <SolidColorBrush x:Key="BaseAccentLowBrush" Color="{StaticResource BaseAccentColor}" Opacity="0.4" />
   <SolidColorBrush x:Key="BaseAccentTransparentBrush" Color="{StaticResource BaseAccentColor}" Opacity="0" />
+
+  <SolidColorBrush x:Key="ItemAccessoryBrush" Color="{StaticResource ItemAccessoryColor}" />
+  <SolidColorBrush x:Key="ItemEngramBrush" Color="{StaticResource ItemEngramColor}" />
+  <SolidColorBrush x:Key="ItemMutatorBrush" Color="{StaticResource ItemMutatorColor}" />
+  <SolidColorBrush x:Key="ItemQuestBrush" Color="{StaticResource ItemQuestColor}" />
+  <SolidColorBrush x:Key="ItemWeaponBrush" Color="{StaticResource ItemWeaponColor}" />
+  <SolidColorBrush x:Key="ItemTraitBrush" Color="{StaticResource ItemTraitColor}" />
 
 </ResourceDictionary>

@@ -15,6 +15,7 @@
 
   <UserControl.Resources>
     <util:ItemTypeToIconConverter x:Key="ItemTypeToIconConverter" />
+    <util:ItemTypeToForegroundConverter x:Key="ItemTypeToForegroundConverter" />
     <util:StringComparisonConverter x:Key="StringComparisonConverter" />
     <sys:Double x:Key="IconSize">20</sys:Double>
     <!-- Preload -->
@@ -280,7 +281,7 @@
 
                 <Grid Grid.Column="1" ColumnDefinitions="Auto, Auto">
                   <HyperlinkButton Classes="plain" Grid.Column="0" NavigateUri="{Binding WikiLink}" Margin="0" Padding="3 0">
-                    <TextBlock Text="{Binding Name}">
+                    <TextBlock Text="{Binding Name}" Foreground="{Binding Converter={StaticResource ItemTypeToForegroundConverter}}">
                       <TextBlock.IsEnabled>
                         <MultiBinding Converter="{x:Static BoolConverters.And}">
                           <Binding Path="!IsLooted" />
