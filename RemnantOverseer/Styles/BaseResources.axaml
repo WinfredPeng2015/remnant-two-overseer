@@ -18,6 +18,7 @@
   <SolidColorBrush x:Key="ItemEngramBrush" Color="{StaticResource ItemEngramColor}" />
   <SolidColorBrush x:Key="ItemMutatorBrush" Color="{StaticResource ItemMutatorColor}" />
   <SolidColorBrush x:Key="ItemQuestBrush" Color="{StaticResource ItemQuestColor}" />
+  <SolidColorBrush x:Key="ItemRelicBrush" Color="{StaticResource ItemRelicColor}" />
   <SolidColorBrush x:Key="ItemWeaponBrush" Color="{StaticResource ItemWeaponColor}" />
   <SolidColorBrush x:Key="ItemTraitBrush" Color="{StaticResource ItemTraitColor}" />
 

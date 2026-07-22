@@ -25,6 +25,7 @@ public class ItemTypeToForegroundConverter : IValueConverter
                 ItemTypes.Engram => "ItemEngramBrush",
                 ItemTypes.Mutator => "ItemMutatorBrush",
                 ItemTypes.QuestItem => "ItemQuestBrush",
+                ItemTypes.Relic => "ItemRelicBrush",
                 ItemTypes.Weapon => "ItemWeaponBrush",
                 ItemTypes.Trait => "ItemTraitBrush",
                 _ => "BaseTextBrush"
