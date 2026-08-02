@@ -239,43 +239,59 @@ public partial class WorldViewModel : ViewModelBase
             foreach (var location in zone.Locations)
             {
                 var tempLocation = location.ShallowCopy();
-                tempLocation.Items = [];
+                tempLocation.Items = FilterItems(location.Items, value);
+                tempLocation.SubLocations = [];
 
-                // Add more processing if necessary. Remove special characters?
-                IEnumerable<Item> tempItemsQuery = [];
-                if (!string.IsNullOrEmpty(value))
+                foreach (var subLocation in location.SubLocations)
                 {
-                    tempItemsQuery = location.Items.Where(i => i.Name.Contains(value, StringComparison.OrdinalIgnoreCase) || i.OriginName.Contains(value, StringComparison.OrdinalIgnoreCase));
-                }
-                else
-                {
-                    tempItemsQuery = [..location.Items];
-                }
-
-                if (HideDuplicates)
-                {
-                    tempItemsQuery = tempItemsQuery.Where(i => !i.IsDuplicate);
-                }
-                if (HideLootedItems)
-                {
-                    tempItemsQuery = tempItemsQuery.Where(i => !i.IsLooted);
-                }
-                if (HideMissingPrerequisiteItems)
-                {
-                    tempItemsQuery = tempItemsQuery.Where(i => !i.IsPrerequisiteMissing);
-                }
-                if (HideHasRequiredMaterialItems)
-                {
-                    tempItemsQuery = tempItemsQuery.Where(i => !i.HasRequiredMaterial);
+                    var tempSubLocation = subLocation.ShallowCopy();
+                    tempSubLocation.Items = FilterItems(subLocation.Items, value);
+                    if (tempSubLocation.Items.Count != 0)
+                    {
+                        tempLocation.SubLocations.Add(tempSubLocation);
+                    }
                 }
 
-                var tempItems = tempItemsQuery.ToList();
-                if (tempItems.Count != 0) { tempLocation.Items = tempItems; tempZone.Locations.Add(tempLocation); }
+                if (tempLocation.Items.Count != 0 || tempLocation.SubLocations.Count != 0)
+                {
+                    tempZone.Locations.Add(tempLocation);
+                }
             }
             if (tempZone.Locations.Count != 0) { tempFilteredZones.Add(tempZone); }
         }
 
         FilteredZones = new(tempFilteredZones);
+    }
+
+    private List<Item> FilterItems(IEnumerable<Item> items, string? value)
+    {
+        var query = items;
+
+        if (!string.IsNullOrEmpty(value))
+        {
+            query = query.Where(i =>
+                i.Name.Contains(value, StringComparison.OrdinalIgnoreCase)
+                || i.OriginName.Contains(value, StringComparison.OrdinalIgnoreCase));
+        }
+
+        if (HideDuplicates)
+        {
+            query = query.Where(i => !i.IsDuplicate);
+        }
+        if (HideLootedItems)
+        {
+            query = query.Where(i => !i.IsLooted);
+        }
+        if (HideMissingPrerequisiteItems)
+        {
+            query = query.Where(i => !i.IsPrerequisiteMissing);
+        }
+        if (HideHasRequiredMaterialItems)
+        {
+            query = query.Where(i => !i.HasRequiredMaterial);
+        }
+
+        return query.ToList();
     }
     #endregion Filtering
 
@@ -401,6 +417,15 @@ public partial class WorldViewModel : ViewModelBase
                 foreach (var item in location.Items)
                 {
                     item.RefreshLocalizedProperties();
+                }
+
+                foreach (var subLocation in location.SubLocations)
+                {
+                    subLocation.RefreshLocalizedProperties();
+                    foreach (var item in subLocation.Items)
+                    {
+                        item.RefreshLocalizedProperties();
+                    }
                 }
             }
         }

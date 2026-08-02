@@ -54,6 +54,12 @@ Avalonia may need to write build telemetry under `%LOCALAPPDATA%\AvaloniaUI\Buil
 
 - Traditional Chinese culture is `zh-Hant`.
 - Font fallbacks in `App.axaml` include Microsoft JhengHei UI so Traditional Chinese glyphs render correctly.
+- World Items can use a four-level tree: `Zone -> Location -> SubLocation -> Item`.
+- A `SubLocation` represents a named analyzer `overworld POI` loot group nested under the rolled parent `Location`; do not infer or hard-code its parent from the POI name.
+- Treat a sublocation as a World Stone only when its localized POI name exactly matches one of the save's canonical waypoint names. Known examples include `Morrow Parish -> Oracle's Refuge` and `The Eon Vault -> Extraction Hub`.
+- Keep a POI's items directly under the parent location when the POI name is empty or equals the parent location name, so the tree does not show redundant paths such as `Lemark District -> Lemark District`.
+- Search, category filters, acquired-item filters, and localization refreshes must traverse both direct `Location.Items` and nested `SubLocation.Items`.
+- Vendor, boss, dungeon, injectable, world-drop, and other non-POI item groups remain direct children of their parent `Location`.
 - Current-world quest items bypass the permanent-profile duplicate check in `Utilities\DatasetMapper.cs`. Their visibility is controlled by their actual `IsLooted` state.
 - Item name colors are applied in both World and Missing Items views through `Utilities\ItemTypeToForegroundConverter.cs`.
 - Item color preferences are persisted in `settings.json`.
@@ -66,6 +72,7 @@ Avalonia may need to write build telemetry under `%LOCALAPPDATA%\AvaloniaUI\Buil
 - Build must complete with zero errors before committing.
 - Run `git diff --check`; CRLF conversion warnings are expected on Windows.
 - Launch the exact Debug executable after UI changes.
+- For World Items sublocation changes, verify that moving a POI group does not hide or duplicate items, self-named POIs remain direct items, nested items respond to every filter/search mode, language changes refresh nested labels, and exact waypoint matches show the World Stone marker.
 - For color-setting changes, verify:
   - exactly one mode has the gray selected background;
   - clicking the selected mode does not clear it;

@@ -18,6 +18,10 @@ public class Location : ObservableObject
         set => CanonicalName = value.Trim();
     }
     public List<Item> Items { get; set; } = [];
+    public List<SubLocation> SubLocations { get; set; } = [];
+    public List<string> CanonicalWorldStones { get; set; } = [];
+    public IEnumerable<object> Children => SubLocations.Cast<object>().Concat(Items.Cast<object>());
+    public IEnumerable<Item> AllItems => Items.Concat(SubLocations.SelectMany(s => s.Items));
     public bool IsTraitBookPresent { get; set; }
     public bool IsSimulacrumPresent { get; set; }
     public bool IsTraitBookLooted { get; set; }
@@ -87,7 +91,7 @@ public class Location : ObservableObject
 
     // Trying this out. Should not be a big performance hit since it's just ~10 calls
     private string[] _possibleOracleSpawns = ["Morrow Parish", "Forsaken Quarter", "Ironborough", "Brocwithe Quarter"];
-    public bool IsOracleLocation => _possibleOracleSpawns.Contains(CanonicalName) && Items.Any(i => i.CanonicalOriginName.Equals("Oracle's Refuge", System.StringComparison.Ordinal));
+    public bool IsOracleLocation => _possibleOracleSpawns.Contains(CanonicalName) && AllItems.Any(i => i.CanonicalOriginName.Equals("Oracle's Refuge", System.StringComparison.Ordinal));
 
 
     public Location ShallowCopy()

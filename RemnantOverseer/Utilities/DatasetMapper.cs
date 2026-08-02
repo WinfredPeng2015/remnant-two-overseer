@@ -107,8 +107,7 @@ internal class DatasetMapper
                 Locations = []
             };
 
-            // Map Locations
-            // TODO: Consider nesting locations
+            // Map locations and nest named overworld POIs beneath their parent map.
             foreach (var location in zone.Locations)
             {
                 //locnames.Add(location.Name);
@@ -116,6 +115,8 @@ internal class DatasetMapper
                 {
                     Name = location.Name,
                     Items = [],
+                    SubLocations = [],
+                    CanonicalWorldStones = [.. location.WorldStones],
                     IsSimulacrumPresent = location.Simulacrum,
                     IsSimulacrumLooted = location.SimulacrumLooted,
                     IsTraitBookPresent = location.TraitBook,
@@ -129,6 +130,7 @@ internal class DatasetMapper
                 // Map Items
                 foreach (var lootGroup in location.LootGroups)
                 {
+                    var mappedItems = new List<Models.Item>();
                     foreach (var item in lootGroup.Items)
                     {
                         //if (item.Properties.TryGetValue("Subtype", out string? value) && !subtypes.Contains(value))
@@ -136,8 +138,34 @@ internal class DatasetMapper
                         //    subtypes.Add(value);
                         //}
                         var itemModel = MapLootItemToItem(item, lootGroup, !missingItemIds.Contains(item.Id));
-                        // if (itemModel.OriginName.Equals("Oracle's Refuge")) locationModel.IsOracleLocation = true;
-                        locationModel.Items.Add(itemModel);
+                        mappedItems.Add(itemModel);
+                    }
+
+                    if (IsSubLocationLootGroup(lootGroup, location.Name))
+                    {
+                        var canonicalName = lootGroup.Name!.Trim();
+                        var subLocation = locationModel.SubLocations.FirstOrDefault(s =>
+                            s.CanonicalName.Equals(canonicalName, StringComparison.OrdinalIgnoreCase));
+
+                        if (subLocation is null)
+                        {
+                            subLocation = new Models.SubLocation
+                            {
+                                CanonicalName = canonicalName,
+                                LocalizationKey = lootGroup.EventDropReference ?? canonicalName,
+                                IsWorldStone = location.WorldStones.Contains(canonicalName, StringComparer.OrdinalIgnoreCase),
+                                IsRespawnLocation = respawnPoint?.Type == lib.remnant2.analyzer.Enums.RespawnPointType.WorldStone
+                                    && respawnPoint.Name.Equals(canonicalName, StringComparison.OrdinalIgnoreCase),
+                                Items = []
+                            };
+                            locationModel.SubLocations.Add(subLocation);
+                        }
+
+                        subLocation.Items.AddRange(mappedItems);
+                    }
+                    else
+                    {
+                        locationModel.Items.AddRange(mappedItems);
                     }
                 }
 
@@ -177,6 +205,13 @@ internal class DatasetMapper
         //var t = locnames;
         //var s = subtypes;
         return result;
+    }
+
+    private static bool IsSubLocationLootGroup(LootGroup lootGroup, string parentLocationName)
+    {
+        return !string.IsNullOrWhiteSpace(lootGroup.Name)
+            && !lootGroup.Name.Equals(parentLocationName, StringComparison.OrdinalIgnoreCase)
+            && lootGroup.Type.Equals("overworld POI", StringComparison.OrdinalIgnoreCase);
     }
 
     private static Models.Item MapLootItemToItem(LootItemExtended lootItem)
