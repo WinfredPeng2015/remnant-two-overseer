@@ -729,4 +729,13 @@
   <data name="Settings_ItemColorCustom" xml:space="preserve">
     <value>自訂顏色</value>
   </data>
+  <data name="MissingItems_ToggleGrouping" xml:space="preserve">
+    <value>切換分組方式</value>
+  </data>
+  <data name="MissingItems_GroupByWorld" xml:space="preserve">
+    <value>依世界分組</value>
+  </data>
+  <data name="MissingItems_GroupByItemType" xml:space="preserve">
+    <value>依物品類型分組</value>
+  </data>
 </root>

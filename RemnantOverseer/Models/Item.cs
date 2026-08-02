@@ -27,8 +27,20 @@ public class Item : ObservableObject
     public bool HasRequiredMaterial { get; set; }
     public bool IsCoop { get; set; }
     public bool IsAccountAward { get; set; }
+    public string CanonicalWorldName { get; set; } = string.Empty;
+    public string CanonicalAcquisitionSourceName { get; set; } = string.Empty;
 
     public string TypeName => LocalizationService.ItemTypeName(Type);
+    public string WorldName => string.IsNullOrEmpty(CanonicalWorldName)
+        ? LocalizationService.Get("Common_Unknown")
+        : LocalizationService.GameString(CanonicalWorldName, CanonicalWorldName);
+    public string AcquisitionSourceName => LocalizationService.GameString(
+        CanonicalAcquisitionSourceName,
+        CanonicalAcquisitionSourceName);
+    public string AcquisitionDisplayName => string.IsNullOrEmpty(AcquisitionSourceName)
+        || AcquisitionSourceName.Equals(WorldName, StringComparison.OrdinalIgnoreCase)
+            ? WorldName
+            : $"{WorldName} · {AcquisitionSourceName}";
 
     // We are only interested in a couple of types to display
     public string? OriginNameFormatted
@@ -63,6 +75,9 @@ public class Item : ObservableObject
         OnPropertyChanged(nameof(OriginName));
         OnPropertyChanged(nameof(TypeName));
         OnPropertyChanged(nameof(OriginNameFormatted));
+        OnPropertyChanged(nameof(WorldName));
+        OnPropertyChanged(nameof(AcquisitionSourceName));
+        OnPropertyChanged(nameof(AcquisitionDisplayName));
         OnPropertyChanged(nameof(NoteTranslationLink));
         OnPropertyChanged(nameof(HasNoteTranslationLink));
         OnPropertyChanged(nameof(HasPlainDescriptionIcon));

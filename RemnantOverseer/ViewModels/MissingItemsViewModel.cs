@@ -29,10 +29,22 @@ public partial class MissingItemsViewModel : ViewModelBase
     private string? _filterText = null;
 
     [ObservableProperty]
-    private ObservableCollection<ItemCategory> _filteredItemCategories = [];
+    private ObservableCollection<MissingItemGroup> _filteredItemGroups = [];
 
     [ObservableProperty]
     private bool _isGlobalExpandOn = true;
+
+    [ObservableProperty]
+    private bool _isGroupedByWorld;
+
+    [ObservableProperty]
+    private bool _isNerudFilterChecked;
+
+    [ObservableProperty]
+    private bool _isYaeshaFilterChecked;
+
+    [ObservableProperty]
+    private bool _isLosomnFilterChecked;
 
     public MissingItemsViewModel(SaveDataService saveDataService)
     {
@@ -58,10 +70,52 @@ public partial class MissingItemsViewModel : ViewModelBase
         IsGlobalExpandOn = !IsGlobalExpandOn;
     }
 
+    [RelayCommand]
+    private void NerudFilterToggled()
+    {
+        if (IsNerudFilterChecked)
+        {
+            IsYaeshaFilterChecked = false;
+            IsLosomnFilterChecked = false;
+        }
+
+        ApplyFilter();
+    }
+
+    [RelayCommand]
+    private void YaeshaFilterToggled()
+    {
+        if (IsYaeshaFilterChecked)
+        {
+            IsNerudFilterChecked = false;
+            IsLosomnFilterChecked = false;
+        }
+
+        ApplyFilter();
+    }
+
+    [RelayCommand]
+    private void LosomnFilterToggled()
+    {
+        if (IsLosomnFilterChecked)
+        {
+            IsNerudFilterChecked = false;
+            IsYaeshaFilterChecked = false;
+        }
+
+        ApplyFilter();
+    }
+
     partial void OnFilterTextChanged(string? value)
     {
         _filterTextSubject.OnNext(value);
     }
+
+    partial void OnIsGroupedByWorldChanged(bool value)
+    {
+        ApplyFilter();
+    }
+
     private void OnFilterTextChangedDebounced(string? value)
     {
         ApplyFilter(value);
@@ -70,6 +124,16 @@ public partial class MissingItemsViewModel : ViewModelBase
     [RelayCommand]
     public void ResetFilters()
     {
+        var hasWorldFilter = IsNerudFilterChecked
+            || IsYaeshaFilterChecked
+            || IsLosomnFilterChecked;
+        ResetWorldFilterToggles();
+
+        if (FilterText is null && hasWorldFilter)
+        {
+            ApplyFilter();
+        }
+
         FilterText = null;
     }
 
@@ -90,8 +154,14 @@ public partial class MissingItemsViewModel : ViewModelBase
             // Call private field to avoid filtering on every assignment
 #pragma warning disable MVVMTK0034 // Direct field reference to [ObservableProperty] backing field
             _filterText = null;
+            _isNerudFilterChecked = false;
+            _isYaeshaFilterChecked = false;
+            _isLosomnFilterChecked = false;
 #pragma warning restore MVVMTK0034 // Direct field reference to [ObservableProperty] backing field
             OnPropertyChanged(nameof(FilterText));
+            OnPropertyChanged(nameof(IsNerudFilterChecked));
+            OnPropertyChanged(nameof(IsYaeshaFilterChecked));
+            OnPropertyChanged(nameof(IsLosomnFilterChecked));
         }
 
         _mappedMissingItems = DatasetMapper.MapMissingItems(dataset.Characters[_selectedCharacterIndex].Profile.MissingItems);
@@ -114,26 +184,86 @@ public partial class MissingItemsViewModel : ViewModelBase
 
     private void ApplyFilter(string? value)
     {
-        var tempFiltered = new List<ItemCategory>();
-        foreach (var mappedCategory in _mappedMissingItems.ItemCategoryList)
-        {
-            if (mappedCategory.Type == Models.Enums.ItemTypes.Unknown) continue;
+        var items = _mappedMissingItems.ItemCategoryList
+            .Where(category => category.Type != Models.Enums.ItemTypes.Unknown)
+            .SelectMany(category => category.Items);
 
-            var tempCategory = mappedCategory.ShallowCopy();
-            tempCategory.Items = [];
-            List<Item> tempItems = [];
-            if (!string.IsNullOrEmpty(value))
-            {
-                tempItems = mappedCategory.Items.Where(i => i.Name.Contains(value, StringComparison.OrdinalIgnoreCase)).ToList();
-            }
-            else
-            {
-                tempItems.AddRange(mappedCategory.Items);
-            }
-            if (tempItems.Count != 0) { tempCategory.Items = tempItems; tempFiltered.Add(tempCategory); }
+        if (IsNerudFilterChecked)
+        {
+            items = items.Where(item => item.CanonicalWorldName == "N'Erud");
+        }
+        else if (IsYaeshaFilterChecked)
+        {
+            items = items.Where(item => item.CanonicalWorldName == "Yaesha");
+        }
+        else if (IsLosomnFilterChecked)
+        {
+            items = items.Where(item => item.CanonicalWorldName == "Losomn");
         }
 
-        FilteredItemCategories = new(tempFiltered);
+        if (!string.IsNullOrEmpty(value))
+        {
+            items = items.Where(item =>
+                item.Name.Contains(value, StringComparison.OrdinalIgnoreCase)
+                || item.WorldName.Contains(value, StringComparison.OrdinalIgnoreCase)
+                || item.AcquisitionSourceName.Contains(value, StringComparison.OrdinalIgnoreCase));
+        }
+
+        var filteredItems = items.ToList();
+        var groups = IsGroupedByWorld
+            ? GroupItemsByWorld(filteredItems)
+            : GroupItemsByType(filteredItems);
+
+        FilteredItemGroups = new(groups);
+    }
+
+    private static List<MissingItemGroup> GroupItemsByType(List<Item> items)
+    {
+        return items
+            .GroupBy(item => item.Type)
+            .OrderBy(group => group.Key)
+            .Select(group => new MissingItemGroup
+            {
+                Type = group.Key,
+                IsItemTypeGroup = true,
+                Items = group.ToList()
+            })
+            .ToList();
+    }
+
+    private static List<MissingItemGroup> GroupItemsByWorld(List<Item> items)
+    {
+        return items
+            .GroupBy(item => item.CanonicalWorldName)
+            .OrderBy(group => GetWorldSortOrder(group.Key))
+            .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
+            .Select(group => new MissingItemGroup
+            {
+                CanonicalWorldName = group.Key,
+                Items = group.OrderBy(item => item.Type).ThenBy(item => item.Name).ToList()
+            })
+            .ToList();
+    }
+
+    private static int GetWorldSortOrder(string canonicalWorldName)
+    {
+        return canonicalWorldName switch
+        {
+            "Ward 13" => 0,
+            "Losomn" => 1,
+            "N'Erud" => 2,
+            "Yaesha" => 3,
+            "The Labyrinth" => 4,
+            "Root Earth" => 5,
+            _ => int.MaxValue
+        };
+    }
+
+    private void ResetWorldFilterToggles()
+    {
+        IsNerudFilterChecked = false;
+        IsYaeshaFilterChecked = false;
+        IsLosomnFilterChecked = false;
     }
 
     #region Messages

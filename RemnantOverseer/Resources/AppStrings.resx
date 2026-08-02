@@ -729,4 +729,13 @@ Restart the game if that happens</value>
   <data name="Settings_ItemColorCustom" xml:space="preserve">
     <value>Custom color</value>
   </data>
+  <data name="MissingItems_ToggleGrouping" xml:space="preserve">
+    <value>Switch grouping</value>
+  </data>
+  <data name="MissingItems_GroupByWorld" xml:space="preserve">
+    <value>Group by world</value>
+  </data>
+  <data name="MissingItems_GroupByItemType" xml:space="preserve">
+    <value>Group by item type</value>
+  </data>
 </root>

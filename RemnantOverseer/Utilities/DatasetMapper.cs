@@ -61,6 +61,8 @@ internal class DatasetMapper
         {
             var lootItem = new LootItemExtended() { Properties = missingItem };
             var item = MapLootItemToItem(lootItem);
+            item.CanonicalAcquisitionSourceName = missingItem.GetValueOrDefault("DropReference", string.Empty);
+            item.CanonicalWorldName = GetCanonicalAcquisitionWorldName(missingItem);
             result.ItemCategoryList[(int)item.Type].Items.Add(item);
         }
 
@@ -205,6 +207,42 @@ internal class DatasetMapper
         //var t = locnames;
         //var s = subtypes;
         return result;
+    }
+
+    private static string GetCanonicalAcquisitionWorldName(Dictionary<string, string> itemProperties)
+    {
+        var world = itemProperties.GetValueOrDefault("World", string.Empty);
+        var dropType = itemProperties.GetValueOrDefault("DropType", string.Empty);
+        var dropReference = itemProperties.GetValueOrDefault("DropReference", string.Empty);
+
+        if (dropType.Equals("Vendor", StringComparison.OrdinalIgnoreCase)
+            && IsWard13Vendor(dropReference))
+        {
+            return "Ward 13";
+        }
+
+        return world switch
+        {
+            "World_Base" or "World_City" => "Ward 13",
+            "World_Fae" or "World_DLC1" => "Losomn",
+            "World_Jungle" or "World_DLC2" => "Yaesha",
+            "World_Nerud" or "World_DLC3" => "N'Erud",
+            "World_Labyrinth" => "The Labyrinth",
+            "World_Root" => "Root Earth",
+            _ => string.Empty
+        };
+    }
+
+    private static bool IsWard13Vendor(string dropReference)
+    {
+        return dropReference is "Brabus"
+            or "Cass"
+            or "Dwell"
+            or "McCabe"
+            or "Mudtooth"
+            or "Reggie"
+            or "Wallace"
+            or "Whispers";
     }
 
     private static bool IsSubLocationLootGroup(LootGroup lootGroup, string parentLocationName)
